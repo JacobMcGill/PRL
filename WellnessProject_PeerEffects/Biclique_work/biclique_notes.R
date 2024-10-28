@@ -193,7 +193,7 @@ second_peer = frame$second_order
 third_peer = frame$third_order
 
 N = 289
-Y_test = 0.1 + 5*treatment  + 5*first_peer + 3.5*second_peer + 1.5*third_peer + rnorm(N)
+Y_test = 0.1 + 5*treatment  + 7*first_peer  + rnorm(N)
 Z_test = rbinom(N, 1, 0.05)
 #My test. To fix this, I need to get the adjacency matrix of our treatment.
 H0_test = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
