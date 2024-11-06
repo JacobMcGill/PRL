@@ -316,7 +316,7 @@ greek_sim = function(num_sims) {
 ```
 
 ```{r, include = FALSE}
-test = greek_sim(100)
+test = greek_sim(10)
 ```
 
 ```{r, echo = FALSE}
@@ -385,6 +385,60 @@ characteristic_model
 ```
 As can be seen, the regression captures a statistically significant effect of leave out mean. However, this is not capturing any causal effect of leave out mean (since it does not exist in the data generating process). Instead it is capturing intraclass correlation caused by group specific shocks.
 
+We can also show that this bias appears systematically by running the above regression multiple times. If we run the regression 1000 times, we get the following distribution of estimated coefficients.
+
+```{r, include = FALSE}
+char_sim = function(num_sims) {
+  set.seed(110402024)
+  char_coeff = c()
+  for (i in 1:num_sims) {
+    leave_pop = data.frame(characteristic = rnorm(600, 50, 1))
+
+      leave_out_mean = function(x) {
+        n = length(x)
+        sum_except_x = sum(x) - x
+        mean_except_x = sum_except_x / (n - 1)
+        return(mean_except_x)
+      }
+      
+      grouper_no_dummy <- function(df, n) {
+        
+        random <- sample(1:nrow(df), replace = FALSE, nrow(df))
+        
+        df$group_number <- ceiling(random / (nrow(df) / n))
+        
+        return(df)  
+      }
+      
+      leave_groups = grouper_no_dummy(leave_pop, 150)
+      leave_groups = leave_groups %>%
+        group_by(group_number) %>%
+        mutate(group_effect = rnorm(1, 5, 0.5),
+               mean = mean(characteristic))
+      leave_groups = arrange(leave_groups, group_number)
+      leave_groups = leave_groups %>%
+          mutate(characteristic_mod = characteristic + group_effect,
+                 leave_out = leave_out_mean(characteristic_mod),
+                 outcome_group = characteristic + group_effect
+                    ) 
+      
+      characteristic_model = summary(lm(characteristic_mod ~ leave_out, data = leave_groups))
+      char_coeff[i] = characteristic_model$coefficients[2,1]
+  }
+  results = data.frame(char_coeff = char_coeff)
+}
+```
+```{r, include=FALSE}
+char_ex = char_sim(1000)
+```
+```{r, echo = FALSE}
+ggplot(char_ex, aes(x = char_coeff)) + 
+  geom_histogram() +
+  geom_vline(aes(xintercept = 0))
+```
+
+Although there are no peer effects in the data generation process, the above regressions consistently identifies some, as it cannot seperate group specific shocks from peer effects.
+
 Angrist also discusses flaws with the social returns model, $y= \beta_1 \mu_{(x|z)}+ \beta_0 x$, which is intended to capture the causal effect of the average value of x for group z on outcome y, controlling for an individual’s value of x. The social returns coefficient, $\beta_1$, is proportional to the difference between the 2SLS estimated coefficient of x from of regressing x on y (instrumenting for x with z) and the OLS estimate of the coefficient of x. $\beta_1$ then does not necessarily capture the causal effect of $\mu_{(x|z)}$ on y, as the 2SLS estimate can be greater than the OLS estimate for reasons such as measurement error or omitted variable bias. How these can effect 2SLS can be seen in the simulation below (I based it off the Acemoglu and Angrist paper given as an example in the Angrist paper). Data was generated for the "educ" variable and observations were grouped into categories of 10. A "state_effect" was also calculated. The variable "wages_state" was determined by the equation "wage_state = 200 + 25*(educ_state) + 20*state_effect", with "educ_state" being the sum of educ and state_effect. The influence of "state_effect" on wages acts as an omitted variable bias by violating the exclusion of principle of using states as an instrument.
 
 ```{r, include = FALSE}
@@ -425,7 +479,40 @@ return_2SLS
 return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
 ```
 
-As can be seen, the failure of the state instrument to satisfy the exclusion restriction results in the 2SLS estimate of the effect of education on wages to be bigger than the OLS estimate, creating the appearance of peer effects. To demonstrate the effect of measurement error, I also generated the variable "wages" from the equation "wage = 200 + 25*(educ)" and the variable "educ_noise", which adds some randomly generated noise of mean 0 to the "educ" variable. Regressing wage on "educ_noise" instead of "educ" will attenuate the OLS and 2SLS measures of the effect of education on wage, but the attenuation will be greater for OLS compared to 2SLS, creating a gap between the 2 coefficients and the appearance of peer effects. This effect can be seen below.
+As can be seen, the failure of the state instrument to satisfy the exclusion restriction results in the 2SLS estimate of the effect of education on wages to be bigger than the OLS estimate, creating the appearance of peer effects. To demonstrate that this bias is systematic, I also ran the above simulation 1000 times and plotted the calculated differences betwee the OLS and 2SLS estimates
+```{r, include = FALSE}
+ovb_sim = function(num_sims) {
+  set.seed(30520244011)
+  ols_est
+  sls_est
+  peer_est
+  for(i in 1:num_sims) {
+    social_return_pop = data.frame(educ = rnorm(1000, 14, 1.5)) %>%
+      mutate(noise = rnorm(1000, 0, 1.5))
+    return_groups = grouper_no_dummy(social_return_pop, 10)
+    return_groups = return_groups %>%
+      group_by(group_number) %>%
+      mutate(state_effect = rnorm(1, 1,0.5))
+    return_groups = return_groups %>%
+      mutate(educ_state = educ + 2*state_effect,
+             educ_state_noise = educ_state + noise,
+             educ_noise = educ + noise,
+             wage_state = 200 + 25*(educ_state) + 20*state_effect,
+             wage = 200 + 25*(educ))
+
+    return_OLS = summary(lm(wage_state~educ_state, data=return_groups))
+    return_2SLS = summary(ivreg(wage_state~educ_state 
+                        |group_number, data = return_groups))
+    return_OLS
+    return_2SLS
+    
+    return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+  }
+}
+```
+
+
+To demonstrate the effect of measurement error, I also generated the variable "wages" from the equation "wage = 200 + 25*(educ)" and the variable "educ_noise", which adds some randomly generated noise of mean 0 to the "educ" variable. Regressing wage on "educ_noise" instead of "educ" will attenuate the OLS and 2SLS measures of the effect of education on wage, but the attenuation will be greater for OLS compared to 2SLS, creating a gap between the 2 coefficients and the appearance of peer effects. This effect can be seen below.
 ```{r, include = FALSE}
 return_noise_OLS = summary(lm(wage ~ educ_noise, data = return_groups))
 return_noise_2SLS = summary(ivreg(wage~educ_noise 
@@ -438,7 +525,82 @@ return_noise_2SLS
 return_noise_2SLS$coefficients[2,1] - return_noise_OLS$coefficients[2,1] 
 
 ```
-The estimated 2SLS estimate of education is larger than the OLS estimate, creating the appearance of peer effects
+The estimated 2SLS estimate of education is larger than the OLS estimate, creating the appearance of peer effects.
+
+To demonstrate that these are both systematic sources of bias, I ran these simulations 1000 times and graphed the results with a histogram.
+```{r, include = FALSE}
+endog_sim = function(num_sims) {
+  set.seed(30520244)
+  ols_est = c()
+  sls_est = c()
+  peer_est = c()
+  ols_noise_est = c()
+  sls_noise_est = c()
+  peer_noise_est = c()
+  for(i in 1:num_sims) {
+    social_return_pop = data.frame(educ = rnorm(1000, 14, 1.5)) %>%
+      mutate(noise = rnorm(1000, 0, 1.5))
+    return_groups = grouper_no_dummy(social_return_pop, 10)
+    return_groups = return_groups %>%
+      group_by(group_number) %>%
+      mutate(state_effect = rnorm(1, 1,0.5))
+    return_groups = return_groups %>%
+      mutate(educ_state = educ + 2*state_effect,
+             educ_state_noise = educ_state + noise,
+             educ_noise = educ + noise,
+             wage_state = 200 + 25*(educ_state) + 20*state_effect,
+             wage = 200 + 25*(educ))
+
+    return_OLS = summary(lm(wage_state~educ_state, data=return_groups))
+    return_2SLS = summary(ivreg(wage_state~educ_state 
+                        |group_number, data = return_groups))
+
+    
+    return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+    return_noise_OLS = summary(lm(wage ~ educ_noise, data = return_groups))
+    return_noise_2SLS = summary(ivreg(wage~educ_noise 
+                        |group_number, data = return_groups))
+    
+    
+    ols_est[i] = return_OLS$coefficients[2,1]
+    sls_est[i] = return_2SLS$coefficients[2,1]
+    peer_est[i] = return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+    ols_noise_est[i] = return_noise_OLS$coefficients[2,1]
+    sls_noise_est[i] = return_noise_2SLS$coefficients[2,1]
+    peer_noise_est[i] = return_noise_2SLS$coefficients[2,1] - return_noise_OLS$coefficients[2,1]
+  }
+  results = data.frame(
+    ols_est = ols_est,
+    sls_est = sls_est,
+    peer_est = peer_est,
+    ols_noise_est = ols_noise_est,
+    sls_noise_est = sls_noise_est,
+    peer_noise_est = peer_noise_est
+  )
+}
+```
+```{r, include = FALSE}
+endog = endog_sim(1000)
+```
+First, we'll start by looking at the difference between the OLS and 2SLS estimates in the omitted variable bias case.
+```{r, echo = FALSE}
+ggplot(endog, aes(x = peer_est)) + 
+  geom_histogram(bins = 2000) +
+  geom_vline(aes(xintercept = 0)) +
+  geom_vline(aes(xintercept = quantile(peer_est,c(0.05, 0.95))[1] , color = "red")) +
+  geom_vline(aes(xintercept = quantile(peer_est,c(0.05, 0.95))[2] , color = "red")) +
+  coord_cartesian(xlim = c(-75,75))
+```
+The estimate of peer effects is biased usually slightly above the true value of 0. However, the true value 0 is within the 5th and 95th percentiles of estimated values.
+```{r, echo = FALSE}
+ggplot(endog, aes(x = peer_noise_est)) + 
+  geom_histogram(bins = 2000) +
+  geom_vline(aes(xintercept = 0)) +
+  geom_vline(aes(xintercept = quantile(peer_noise_est,c(0.05, 0.95))[1] , color = "red")) +
+  geom_vline(aes(xintercept = quantile(peer_noise_est,c(0.05, 0.95))[2] , color = "red")) +
+  coord_cartesian(xlim = c(-100,100))
+```
+This graph demonstrates that the 
 
 # Solutions 
 
