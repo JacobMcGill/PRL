@@ -61,6 +61,7 @@ This regression produces a coefficient of 1, as predicted by Angrist.
 
 
 A more nuanced model controls for both individual and peer characteristics, such as the model $y= \beta\mu_{(y\big|z)}+ \gamma x$, where y is the outcome of interest, x is an individual covariate, and z is group membership. This model attempts to attempt identify the peer effect of the mean of y in group z on an individual’s y, holding z constant. This equation can be rewritten to the form $E[y|z]=\frac{\gamma}{(1-\beta)}\ E[x|z]$, meaning $\beta$ in this equation acts as a "social multiplier" that magnifies the effect of individual covariate changes. Angrist shows that multiplier $\frac{1}{1-\beta}$ approximately equals the ratio of the 2SLS to OLS estimand of the effect of individual covariate x on y (with being instrumented by group membership). As a result, $\beta$ just captures the divergence between the OLS and 2SLS estimates of the effect of x on y, which may exist for reasons other than peer effects, such as weak instruments in 2SLS that do not strongly affect the first stage. To demonstrate how this can occur, I will simulate the Dartmouth high school drinking paper Angrist discusses. In this example, I randomly generated a dummy variable "high_school", indicating whether that individual drank in high school. I used "high_school" to determine the probability of whether someone joined Greek life to capture the influence of high school drinking on joining Greek life, marked by the indicator variable "greek". In this simulation, there are no peer effects on high school drinking. Individuals were then assigned to groups of "dorm", "floor", and "room", with each grouping getting more and more coarse. I then ran an OLS regression of "high_school" against "Greek". I then ran 3 more 2SLS regressions of "high_school" against ""Greek", instrumenting "high_school" with with group membership. The results of these regressions are in the table below, with the coefficients of OLS, 2SLS, their ratio, and their :
+
 ```{r, include = FALSE}
 population = rbinom(n = 10000, size = 1, prob = 0.5)
 student_body = data.frame(high_school = population)
@@ -312,18 +313,26 @@ greek_sim = function(num_sims) {
   dorm_se = dorm_se,
   OLS_coeff = OLS_coeff
   )
+  return(results)
 }
 ```
 
 ```{r, include = FALSE}
-test = greek_sim(10)
+test = greek_sim(1)
 ```
 
 ```{r, echo = FALSE}
 ggplot(test) + 
   geom_histogram(aes(x=room_coeff))
 ```
-
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=floor_coeff))
+```
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=dorm_coeff))
+```
 # Leave Out-Mean and Social Returns
 
 Angrist then discusses the leave-out mean model of peer effects, which take the form $y_{ij}=\beta_0+\beta_1 \bar{y} _{(i)j}+ \epsilon_{ij}$ for individual i in group j. Although this regression does not automatically produce $\beta_1=1$ (as the $y_{ij}=\beta_0+\beta_1 \bar{y}_j+ \epsilon_{ij}$ did), Angrist argues it does not provide a causal interpretation of peer characteristics, as it just captures intraclass correlation, such as shocks common to groups.We can see this in the example below. Data was generated for a population normally (referred to as "characteristic"), with a mean of 50 and a standard deviation of 1. The observations were grouped into 150 groups of 4 categories and each group received a random "shock". The "shock" and the observation's "characteristic" value were then summed together to create the value "characteristic_mod". The leave out mean for "characteristic_mod" was then calculated for each individual and regressed against "characteristic_mod". 
@@ -600,7 +609,7 @@ ggplot(endog, aes(x = peer_noise_est)) +
   geom_vline(aes(xintercept = quantile(peer_noise_est,c(0.05, 0.95))[2] , color = "red")) +
   coord_cartesian(xlim = c(-100,100))
 ```
-This graph demonstrates that the 
+Still need to come back to this; the 2SLS should make the attentuation from the noise less weak.
 
 # Solutions 
 
@@ -751,7 +760,7 @@ z_score
 We would then fail to reject a null hypothesis that the OLS and 2SLS parameters have a difference that is not equal to 0 at the 5% level. To test the robustness of this approach, I also conducted a Monte Carlo simulation. The monte carlo simulation repeated the above data generation and regressions 1000 times. The difference in coefficients between the 2SLS and OLS regressions and the z-scores of the difference in coefficients against a null hypothesis of equaling 0 are also plotted on histograms. The z-score histograms also include a blue vertical line at 1.96 and -1.96 (indicating statistical significance at 5%) and a red vertical line for 1.645 and -1.645 (indicating statistical significance at the 10% level). 
 ```{r, include = FALSE}
 no_peer_simulation = function(num_simulations) {
-  tecoeff_diff_values = numeric(num_simulations)
+  coeff_diff_values = numeric(num_simulations)
   z_scores = numeric(num_simulations)
   
     for (j in 1:num_simulations) {
