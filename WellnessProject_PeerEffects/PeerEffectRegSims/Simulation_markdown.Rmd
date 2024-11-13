@@ -224,9 +224,10 @@ greek_sim = function(num_sims) {
   dorm_coeff = c()
   dorm_se = c()
   OLS_coeff = c()
+  room_SLS_OLS_ratio = c()
+  population = rbinom(n = 10000, size = 1, prob = 0.5)
+  student_body = data.frame(high_school = population)
   for (i in 1:num_sims) {
-    population = rbinom(n = 10000, size = 1, prob = 0.5)
-    student_body = data.frame(high_school = population)
     student_body = student_body %>%
     mutate(greek = ifelse(high_school == 1, 
                         yes = rbinom(n = 10000, size = 1, prob = 0.6), 
@@ -303,6 +304,8 @@ greek_sim = function(num_sims) {
     floor_coeff[i] = floor_2SLS_coeff
     floor_se[i] = floor_2SLS_se
     OLS_coeff[i] = dorm_OLS_coeff
+    
+    room_SLS_OLS_ratio[i] = room_SLS_OLS_ratio
   }
   results = data.frame(
   room_coeff = room_coeff,
@@ -311,14 +314,15 @@ greek_sim = function(num_sims) {
   floor_se = floor_se,
   dorm_coeff = dorm_coeff,
   dorm_se = dorm_se,
-  OLS_coeff = OLS_coeff
+  OLS_coeff = OLS_coeff,
+  room_SLS_OLS_ratio = room_SLS_OLS_ratio
   )
   return(results)
 }
 ```
 
 ```{r, include = FALSE}
-test = greek_sim(1)
+test = greek_sim(100)
 ```
 
 ```{r, echo = FALSE}
@@ -333,6 +337,11 @@ ggplot(test) +
 ggplot(test) + 
   geom_histogram(aes(x=dorm_coeff))
 ```
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=room_SLS_OLS_ratio))
+```
+
 # Leave Out-Mean and Social Returns
 
 Angrist then discusses the leave-out mean model of peer effects, which take the form $y_{ij}=\beta_0+\beta_1 \bar{y} _{(i)j}+ \epsilon_{ij}$ for individual i in group j. Although this regression does not automatically produce $\beta_1=1$ (as the $y_{ij}=\beta_0+\beta_1 \bar{y}_j+ \epsilon_{ij}$ did), Angrist argues it does not provide a causal interpretation of peer characteristics, as it just captures intraclass correlation, such as shocks common to groups.We can see this in the example below. Data was generated for a population normally (referred to as "characteristic"), with a mean of 50 and a standard deviation of 1. The observations were grouped into 150 groups of 4 categories and each group received a random "shock". The "shock" and the observation's "characteristic" value were then summed together to create the value "characteristic_mod". The leave out mean for "characteristic_mod" was then calculated for each individual and regressed against "characteristic_mod". 
