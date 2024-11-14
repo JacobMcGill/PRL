@@ -293,4 +293,21 @@ testout_test
 testout_test$p.value
 ```
 
+The other issue I'm facing is how to test when 2nd or 3rd degree peers have an effect. For that, will the design function, exposure function, or null equivalent? Looking over the documentation in Github, that does not appear to be the case but running the biclique method with 2nd and 3rd degree peer effects produces NaN test statistics. To give some context, here is an example of the 2nd and 3rd degree peer characteristics.
 
+```{r, include = FALSE}
+N = 289
+Y_peer = 0.1 + 5*treatment  + 7*first_peer + 1.5*second_peer + 0.5*third_peer + rnorm(N)
+Z_peer = rbinom(N, 1, 0.05)
+```
+```{r, include = FALSE}
+#My test. To fix this, I need to get the adjacency matrix of our treatment.
+H0_peer = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
+bd_peer = biclique.decompose(Z_peer, H0_peer, controls= list(method="greedy", mina=3, num_randomizations = 4e3))
+```
+```{r, echo = FALSE}
+Tstat_peer = gen_tstat(adjacency_matrix, "elc")
+testout_peer = clique_test(Y_peer,Z_peer, Tstat_peer, bd_peer)
+testout_peer$p.value # p-value of the test
+```
+We're getting NaN results for these, so what do I need to change?
