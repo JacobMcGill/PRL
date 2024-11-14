@@ -2,7 +2,9 @@
 title: "Perils of Peer Effects Write Up and Simulation"
 author: "Jacob McGill"
 date: "2024-05-23"
-output: pdf_document
+output: 
+  md_document: default
+  md: default
 ---
 
 ```{r setup, include=FALSE}
