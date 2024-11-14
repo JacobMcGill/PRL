@@ -1,0 +1,313 @@
+---
+title: "Question David"
+author: "Jacob McGill"
+date: "2024-11-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Hey David, here are some excerpts from code about social networks and peer effects. I have my questions at the end, but I included the codes that generates the social network and applies your biclique method in case you want to check that. 
+
+```{r, include = FALSE}
+library(tidyverse)
+library(fields)
+library(ggraph)
+library(tidygraph)
+library(igraph)
+library(Matrix)
+library(purrr)
+library(patchwork)
+library(ivreg)
+library(rdist)
+library(BicliqueRT)
+```
+
+## Social Network Generation
+
+The following code chunks generates the social network, the treatment vector, and peer effects.
+```{r, include = FALSE}
+set.seed(903)
+plane <- c(1000, 1000)
+
+poisson_para <- .3 * 10^(-3) # Poisson intensity parameter
+# The beta parameter controls the impact of distance on a connection forming between nodes. If you lower the beta 
+# distance matters more, meaning it is less likely for a connection to form between nodes that are farther away.
+beta <- .45 * 10^3
+# The gamma parameter controls the impact of randomly assigned weights to nodes. A lower gamma results in a lower impact of a node's 
+# weight on the probability of forming connections 
+gamma <- .52
+
+# Number of nodes is Poisson(gamma)*AREA - distributed
+n_nodes <- rpois(1, poisson_para * plane[1] * plane[2])
+# Uniformly distributed weights. I have not played with this as a parameter, but we could discuss the role we want weights to play in 
+# in generating the social network (should nodes have a wider or narrower band of weights, should they be equally weighted?).
+weights <- runif(n_nodes)
+
+# The Poisson process locally yields node positions that are completely random.
+x = plane[1] * runif(n_nodes)
+y = plane[2] * runif(n_nodes)
+
+
+# Connection function. I have not modified this, but should we?
+phi <- function(z) {
+  pmin(z^(-1.8), 1)
+} 
+# Distance matrix needed as input. Creates a matrix from a tibble dataframe that calculates the distance between
+# each point
+dist_matrix <-rdist(tibble(x,y))
+
+# Outer function creates a matrix by applying a function to every combination of data in "weights", in this case multiplication.
+weight_matrix <- outer(weights, weights, FUN="*") # Weight matrix
+
+#This takes the phi function from above and has the connection function be a function of the beta and gamma
+con_matrix_prob <- phi(1/beta * weight_matrix^gamma*dist_matrix^2)# Evaluation
+
+con_matrix <- Matrix(rbernoulli(1,con_matrix_prob), sparse=TRUE) # Sampling
+con_matrix <- con_matrix * upper.tri(con_matrix) # Transform to symmetric matrix
+adjacency_matrix <- con_matrix + t(con_matrix)
+# Create Igraph object
+graph <- graph_from_adjacency_matrix(adjacency_matrix, mode="undirected")
+
+# Make a tidygraph object from it. Igraph methods can still be called on it.
+tbl_graph <- as_tbl_graph(graph)
+
+hub_id <- which.max(degree(graph))
+
+# Add spacial positions, hub distance and degree information to the nodes.
+tbl_graph <- tbl_graph %>%
+  #activate(nodes) tells tidygraph to apply the following steps to only nodes
+  activate(nodes) %>%
+  mutate(
+    x = x,
+    y = y,
+    hub_dist = replace_na(bfs_dist(root = hub_id), Inf),
+    degree = degree(graph),
+    friends_of_friends = replace_na(local_ave_degree(), 0),
+    cluster = as.factor(group_infomap())
+  )
+
+#Adding the below code so tbl_graph can be incorporated into social_network_sim.R
+sim_graph = tbl_graph
+# Add coord_fixed() for fixed axis ratio!
+```
+```{r, include = FALSE}
+tbl_graph = tbl_graph %>%
+  activate(nodes) %>%
+  mutate(treated = rbinom(n(), 1, 0.05),
+         treated_status = as.factor(treated),
+         shape_type = as_factor(ifelse(treated == 1, 2, 1)))
+
+# We can also other characteristics to the nodes, such as gender, education, etc.
+tbl_graph = tbl_graph %>%
+  activate(nodes) %>%
+  mutate(Male = as.factor(rbinom(n(), 1, 0.5)),
+         educ = rnorm(n(), 13, 2.5))
+```
+```{r, echo = FALSE}
+tbl_graph = tbl_graph %>%
+  activate(nodes) %>%
+  mutate(neighborhood_1 = local_members(order = 1),
+         neighborhood_2 = local_members(order = 2),
+         neighborhood_3 = local_members(order = 3)) 
+
+
+# alternative way to calculate number of peers treated
+#Z = node_data$treated
+#num_treated_peers_first = adjacency_matrix %*% Z
+#cbind(num_treated_peers_first, node_data$first_order)
+
+
+#Then the following functions find out how many of the 1st, 2nd, and 3rd order neighbors received treatment and add it 
+#as a value in the node dataframe of the tidygraph.
+
+
+#The following function finds the number of first order neighbors that are treated (excluding the node itself).
+Treated_neighbors_first = function(tidy_graph) {
+  neighbor_treat = c()
+  node = tidy_graph %>%
+    activate(nodes) %>%
+    as_tibble()
+  node_rows = nrow(node)
+  for (i in 1:node_rows){
+    treated_count = 0
+    extract = node$neighborhood_1[i]
+    extracted_vector = extract[[1]]
+    for (j in extracted_vector){
+      if(node$treated[j] == 1) {
+        treated_count = treated_count + 1
+      }
+    }
+    neighbor_treat[i] = treated_count
+  }
+  tidy_graph = tidy_graph %>%
+    activate(nodes) %>%
+    mutate(first_order= neighbor_treat - treated)
+  return(tidy_graph)
+}
+
+#Now we will do the number of 2nd order neighbors (excluding the node itself and 1st order neighbors).
+Treated_neighbors_second = function(tidy_graph) {
+  neighbor_treat = c()
+  node = tidy_graph %>%
+    activate(nodes) %>%
+    as_tibble()
+  node_rows = nrow(node)
+  for (i in 1:node_rows){
+    treated_count = 0
+    extract = node$neighborhood_2[i]
+    extracted_vector = extract[[1]]
+    for (j in extracted_vector){
+      if(node$treated[j] == 1) {
+        treated_count = treated_count + 1
+      }
+    }
+    neighbor_treat[i] = treated_count
+  }
+  tidy_graph = tidy_graph %>%
+    activate(nodes) %>%
+    mutate(second_order= neighbor_treat - treated - first_order)
+  return(tidy_graph)
+}
+
+#Now we will do the number of 3rd order neighbors (excluding the node itself, 1st order neighbors, and 2nd order neighbor). 
+Treated_neighbors_third = function(tidy_graph) {
+  neighbor_treat = c()
+  node = tidy_graph %>%
+    activate(nodes) %>%
+    as_tibble()
+  node_rows = nrow(node)
+  for (i in 1:node_rows){
+    treated_count = 0
+    extract = node$neighborhood_3[i]
+    extracted_vector = extract[[1]]
+    for (j in extracted_vector){
+      if(node$treated[j] == 1) {
+        treated_count = treated_count + 1
+      }
+    }
+    neighbor_treat[i] = treated_count
+  }
+  tidy_graph = tidy_graph %>%
+    activate(nodes) %>%
+    mutate(third_order= neighbor_treat - treated - first_order - second_order)
+  return(tidy_graph)
+}
+
+#Finally, include a self check to make sure the function works that finds the total number of treated neighbors within
+# 3 degrees. This should equal the sum of the 1st, 2nd, and 3rd order columns.
+Treated_neighbors_Total = function(tidy_graph) {
+  neighbor_treat = c()
+  node = tidy_graph %>%
+    activate(nodes) %>%
+    as_tibble()
+  node_rows = nrow(node)
+  for (i in 1:node_rows){
+    treated_count = 0
+    extract = node$neighborhood_3[i]
+    extracted_vector = extract[[1]]
+    for (j in extracted_vector){
+      if(node$treated[j] == 1) {
+        treated_count = treated_count + 1
+      }
+    }
+    neighbor_treat[i] = treated_count
+  }
+  tidy_graph = tidy_graph %>%
+    activate(nodes) %>%
+    mutate(total= neighbor_treat - treated)
+  return(tidy_graph)
+}
+#Combine them all into a single function
+Treated_neighbors = function(tidy_graph) {
+  first_order = Treated_neighbors_first(tidy_graph)
+  second_order = Treated_neighbors_second(first_order)
+  third_order = Treated_neighbors_third(second_order)
+  final = Treated_neighbors_Total(third_order)
+  return(final)
+}
+tbl_graph = Treated_neighbors(tbl_graph)
+# Now we have information about peers recorded in the tidygraph object.
+node_data = tbl_graph %>%
+  activate(nodes) %>%
+  as_tibble()
+```
+
+
+## Biclique Application
+
+The following code then applies the biclique method to the social network. I took the design function and the exposure function from your Github section on applying this method to social networks.
+
+```{r, include = FALSE}
+# The design function
+design_fn = function(){rbinom(289, 1, 0.5)} 
+
+# The exposure function
+exposure_i = function(z, i){
+  stopifnot(length(z)==N)
+  z[i]
+}
+#Will need to adjust this exposure function: exposure function outlines peer effects
+# The null
+null_equiv = function(e1, e2){
+  identical(e1, e2)
+}
+```
+```{r, include = FALSE}
+frame = tbl_graph %>%
+  activate(nodes) %>%
+  as_tibble()
+treatment = frame$treated
+first_peer = frame$first_order
+second_peer = frame$second_order
+third_peer = frame$third_order
+```
+```{r, include = FALSE}
+N = 289
+Y_test = 0.1 + 5*treatment  + 7*first_peer  + rnorm(N)
+Z_test = rbinom(N, 1, 0.05)
+```
+```{r, include = FALSE}
+#My test. To fix this, I need to get the adjacency matrix of our treatment.
+H0_test = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
+bd_test = biclique.decompose(Z_test, H0_test, controls= list(method="greedy", mina=3, num_randomizations = 4e3))
+```
+```{r, echo = FALSE}
+Tstat_test = gen_tstat(adjacency_matrix, "elc")
+testout_test = clique_test(Y_test,Z_test, Tstat_test, bd_test)
+testout_test$p.value # p-value of the test
+```
+
+We're getting a p-value that does not indicate statistical signifigance, even though peer effects exist. Is this an issue with how I set up the exposure and/or design functions or with the null hypothesis? 
+
+```{r}
+Tstat_test
+```
+```{r}
+testout_test
+```
+```{r}
+testout_test$p.value
+```
+
+The other issue I'm facing is how to test when 2nd or 3rd degree peers have an effect. For that, will the design function, exposure function, or null equivalent? Looking over the documentation in Github, that does not appear to be the case but running the biclique method with 2nd and 3rd degree peer effects produces NaN test statistics. To give some context, here is an example of the 2nd and 3rd degree peer characteristics.
+
+```{r, include = FALSE}
+N = 289
+Y_peer = 0.1 + 5*treatment  + 7*first_peer + 1.5*second_peer + 0.5*third_peer + rnorm(N)
+Z_peer = rbinom(N, 1, 0.05)
+```
+```{r, include = FALSE}
+#My test. To fix this, I need to get the adjacency matrix of our treatment.
+H0_peer = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
+bd_peer = biclique.decompose(Z_peer, H0_peer, controls= list(method="greedy", mina=3, num_randomizations = 4e3))
+```
+```{r, echo = FALSE}
+Tstat_peer = gen_tstat(adjacency_matrix, "elc")
+testout_peer = clique_test(Y_peer,Z_peer, Tstat_peer, bd_peer)
+testout_peer$p.value # p-value of the test
+```
+We're getting NaN results for these, so what do I need to change?

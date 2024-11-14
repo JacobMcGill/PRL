@@ -193,13 +193,16 @@ second_peer = frame$second_order
 third_peer = frame$third_order
 
 N = 289
-Y_test = 0.1 + 5*treatment  + 3.5*first_peer + 0.75*second_peer + 0.25*third_peer + rnorm(N)
+Y_test = 0.1 + 5*treatment  + 7*first_peer  + rnorm(N)
 Z_test = rbinom(N, 1, 0.05)
 #My test. To fix this, I need to get the adjacency matrix of our treatment.
 H0_test = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
-bd_test = biclique.decompose(Z_test, H0_test, controls= list(method="greedy", mina=50, num_randomizations = 2e3))
+bd_test = biclique.decompose(Z_test, H0_test, controls= list(method="greedy", mina=3, num_randomizations = 4e3))
 Tstat_test = gen_tstat(adjacency_matrix, "elc")
 testout_test = clique_test(Y_test,Z_test, Tstat_test, bd_test)
 testout_test$p.value # p-value of the test
-#Have NaN in statistic.dist, so I should probably go back to data. Probably an issue with biclique
-#decomposition.
+#Notes: We have very strong peer effects present but p-value is high, even when set a large amount of 
+#randomizations and min biclique size. 
+#Questions for David: What should we tune to make this more accurate?
+#design, exposure, null? Probably need to check those.
+#Can 

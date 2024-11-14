@@ -61,6 +61,7 @@ This regression produces a coefficient of 1, as predicted by Angrist.
 
 
 A more nuanced model controls for both individual and peer characteristics, such as the model $y= \beta\mu_{(y\big|z)}+ \gamma x$, where y is the outcome of interest, x is an individual covariate, and z is group membership. This model attempts to attempt identify the peer effect of the mean of y in group z on an individual’s y, holding z constant. This equation can be rewritten to the form $E[y|z]=\frac{\gamma}{(1-\beta)}\ E[x|z]$, meaning $\beta$ in this equation acts as a "social multiplier" that magnifies the effect of individual covariate changes. Angrist shows that multiplier $\frac{1}{1-\beta}$ approximately equals the ratio of the 2SLS to OLS estimand of the effect of individual covariate x on y (with being instrumented by group membership). As a result, $\beta$ just captures the divergence between the OLS and 2SLS estimates of the effect of x on y, which may exist for reasons other than peer effects, such as weak instruments in 2SLS that do not strongly affect the first stage. To demonstrate how this can occur, I will simulate the Dartmouth high school drinking paper Angrist discusses. In this example, I randomly generated a dummy variable "high_school", indicating whether that individual drank in high school. I used "high_school" to determine the probability of whether someone joined Greek life to capture the influence of high school drinking on joining Greek life, marked by the indicator variable "greek". In this simulation, there are no peer effects on high school drinking. Individuals were then assigned to groups of "dorm", "floor", and "room", with each grouping getting more and more coarse. I then ran an OLS regression of "high_school" against "Greek". I then ran 3 more 2SLS regressions of "high_school" against ""Greek", instrumenting "high_school" with with group membership. The results of these regressions are in the table below, with the coefficients of OLS, 2SLS, their ratio, and their :
+
 ```{r, include = FALSE}
 population = rbinom(n = 10000, size = 1, prob = 0.5)
 student_body = data.frame(high_school = population)
@@ -223,9 +224,10 @@ greek_sim = function(num_sims) {
   dorm_coeff = c()
   dorm_se = c()
   OLS_coeff = c()
+  room_SLS_OLS_ratio = c()
+  population = rbinom(n = 10000, size = 1, prob = 0.5)
+  student_body = data.frame(high_school = population)
   for (i in 1:num_sims) {
-    population = rbinom(n = 10000, size = 1, prob = 0.5)
-    student_body = data.frame(high_school = population)
     student_body = student_body %>%
     mutate(greek = ifelse(high_school == 1, 
                         yes = rbinom(n = 10000, size = 1, prob = 0.6), 
@@ -302,6 +304,8 @@ greek_sim = function(num_sims) {
     floor_coeff[i] = floor_2SLS_coeff
     floor_se[i] = floor_2SLS_se
     OLS_coeff[i] = dorm_OLS_coeff
+    
+    room_SLS_OLS_ratio[i] = room_SLS_OLS_ratio
   }
   results = data.frame(
   room_coeff = room_coeff,
@@ -310,8 +314,10 @@ greek_sim = function(num_sims) {
   floor_se = floor_se,
   dorm_coeff = dorm_coeff,
   dorm_se = dorm_se,
-  OLS_coeff = OLS_coeff
+  OLS_coeff = OLS_coeff,
+  room_SLS_OLS_ratio = room_SLS_OLS_ratio
   )
+  return(results)
 }
 ```
 
@@ -322,6 +328,18 @@ test = greek_sim(100)
 ```{r, echo = FALSE}
 ggplot(test) + 
   geom_histogram(aes(x=room_coeff))
+```
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=floor_coeff))
+```
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=dorm_coeff))
+```
+```{r, echo = FALSE}
+ggplot(test) + 
+  geom_histogram(aes(x=room_SLS_OLS_ratio))
 ```
 
 # Leave Out-Mean and Social Returns
@@ -385,6 +403,60 @@ characteristic_model
 ```
 As can be seen, the regression captures a statistically significant effect of leave out mean. However, this is not capturing any causal effect of leave out mean (since it does not exist in the data generating process). Instead it is capturing intraclass correlation caused by group specific shocks.
 
+We can also show that this bias appears systematically by running the above regression multiple times. If we run the regression 1000 times, we get the following distribution of estimated coefficients.
+
+```{r, include = FALSE}
+char_sim = function(num_sims) {
+  set.seed(110402024)
+  char_coeff = c()
+  for (i in 1:num_sims) {
+    leave_pop = data.frame(characteristic = rnorm(600, 50, 1))
+
+      leave_out_mean = function(x) {
+        n = length(x)
+        sum_except_x = sum(x) - x
+        mean_except_x = sum_except_x / (n - 1)
+        return(mean_except_x)
+      }
+      
+      grouper_no_dummy <- function(df, n) {
+        
+        random <- sample(1:nrow(df), replace = FALSE, nrow(df))
+        
+        df$group_number <- ceiling(random / (nrow(df) / n))
+        
+        return(df)  
+      }
+      
+      leave_groups = grouper_no_dummy(leave_pop, 150)
+      leave_groups = leave_groups %>%
+        group_by(group_number) %>%
+        mutate(group_effect = rnorm(1, 5, 0.5),
+               mean = mean(characteristic))
+      leave_groups = arrange(leave_groups, group_number)
+      leave_groups = leave_groups %>%
+          mutate(characteristic_mod = characteristic + group_effect,
+                 leave_out = leave_out_mean(characteristic_mod),
+                 outcome_group = characteristic + group_effect
+                    ) 
+      
+      characteristic_model = summary(lm(characteristic_mod ~ leave_out, data = leave_groups))
+      char_coeff[i] = characteristic_model$coefficients[2,1]
+  }
+  results = data.frame(char_coeff = char_coeff)
+}
+```
+```{r, include=FALSE}
+char_ex = char_sim(1000)
+```
+```{r, echo = FALSE}
+ggplot(char_ex, aes(x = char_coeff)) + 
+  geom_histogram() +
+  geom_vline(aes(xintercept = 0))
+```
+
+Although there are no peer effects in the data generation process, the above regressions consistently identifies some, as it cannot seperate group specific shocks from peer effects.
+
 Angrist also discusses flaws with the social returns model, $y= \beta_1 \mu_{(x|z)}+ \beta_0 x$, which is intended to capture the causal effect of the average value of x for group z on outcome y, controlling for an individual’s value of x. The social returns coefficient, $\beta_1$, is proportional to the difference between the 2SLS estimated coefficient of x from of regressing x on y (instrumenting for x with z) and the OLS estimate of the coefficient of x. $\beta_1$ then does not necessarily capture the causal effect of $\mu_{(x|z)}$ on y, as the 2SLS estimate can be greater than the OLS estimate for reasons such as measurement error or omitted variable bias. How these can effect 2SLS can be seen in the simulation below (I based it off the Acemoglu and Angrist paper given as an example in the Angrist paper). Data was generated for the "educ" variable and observations were grouped into categories of 10. A "state_effect" was also calculated. The variable "wages_state" was determined by the equation "wage_state = 200 + 25*(educ_state) + 20*state_effect", with "educ_state" being the sum of educ and state_effect. The influence of "state_effect" on wages acts as an omitted variable bias by violating the exclusion of principle of using states as an instrument.
 
 ```{r, include = FALSE}
@@ -425,7 +497,40 @@ return_2SLS
 return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
 ```
 
-As can be seen, the failure of the state instrument to satisfy the exclusion restriction results in the 2SLS estimate of the effect of education on wages to be bigger than the OLS estimate, creating the appearance of peer effects. To demonstrate the effect of measurement error, I also generated the variable "wages" from the equation "wage = 200 + 25*(educ)" and the variable "educ_noise", which adds some randomly generated noise of mean 0 to the "educ" variable. Regressing wage on "educ_noise" instead of "educ" will attenuate the OLS and 2SLS measures of the effect of education on wage, but the attenuation will be greater for OLS compared to 2SLS, creating a gap between the 2 coefficients and the appearance of peer effects. This effect can be seen below.
+As can be seen, the failure of the state instrument to satisfy the exclusion restriction results in the 2SLS estimate of the effect of education on wages to be bigger than the OLS estimate, creating the appearance of peer effects. To demonstrate that this bias is systematic, I also ran the above simulation 1000 times and plotted the calculated differences betwee the OLS and 2SLS estimates
+```{r, include = FALSE}
+ovb_sim = function(num_sims) {
+  set.seed(30520244011)
+  ols_est
+  sls_est
+  peer_est
+  for(i in 1:num_sims) {
+    social_return_pop = data.frame(educ = rnorm(1000, 14, 1.5)) %>%
+      mutate(noise = rnorm(1000, 0, 1.5))
+    return_groups = grouper_no_dummy(social_return_pop, 10)
+    return_groups = return_groups %>%
+      group_by(group_number) %>%
+      mutate(state_effect = rnorm(1, 1,0.5))
+    return_groups = return_groups %>%
+      mutate(educ_state = educ + 2*state_effect,
+             educ_state_noise = educ_state + noise,
+             educ_noise = educ + noise,
+             wage_state = 200 + 25*(educ_state) + 20*state_effect,
+             wage = 200 + 25*(educ))
+
+    return_OLS = summary(lm(wage_state~educ_state, data=return_groups))
+    return_2SLS = summary(ivreg(wage_state~educ_state 
+                        |group_number, data = return_groups))
+    return_OLS
+    return_2SLS
+    
+    return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+  }
+}
+```
+
+
+To demonstrate the effect of measurement error, I also generated the variable "wages" from the equation "wage = 200 + 25*(educ)" and the variable "educ_noise", which adds some randomly generated noise of mean 0 to the "educ" variable. Regressing wage on "educ_noise" instead of "educ" will attenuate the OLS and 2SLS measures of the effect of education on wage, but the attenuation will be greater for OLS compared to 2SLS, creating a gap between the 2 coefficients and the appearance of peer effects. This effect can be seen below.
 ```{r, include = FALSE}
 return_noise_OLS = summary(lm(wage ~ educ_noise, data = return_groups))
 return_noise_2SLS = summary(ivreg(wage~educ_noise 
@@ -438,7 +543,82 @@ return_noise_2SLS
 return_noise_2SLS$coefficients[2,1] - return_noise_OLS$coefficients[2,1] 
 
 ```
-The estimated 2SLS estimate of education is larger than the OLS estimate, creating the appearance of peer effects
+The estimated 2SLS estimate of education is larger than the OLS estimate, creating the appearance of peer effects.
+
+To demonstrate that these are both systematic sources of bias, I ran these simulations 1000 times and graphed the results with a histogram.
+```{r, include = FALSE}
+endog_sim = function(num_sims) {
+  set.seed(30520244)
+  ols_est = c()
+  sls_est = c()
+  peer_est = c()
+  ols_noise_est = c()
+  sls_noise_est = c()
+  peer_noise_est = c()
+  for(i in 1:num_sims) {
+    social_return_pop = data.frame(educ = rnorm(1000, 14, 1.5)) %>%
+      mutate(noise = rnorm(1000, 0, 1.5))
+    return_groups = grouper_no_dummy(social_return_pop, 10)
+    return_groups = return_groups %>%
+      group_by(group_number) %>%
+      mutate(state_effect = rnorm(1, 1,0.5))
+    return_groups = return_groups %>%
+      mutate(educ_state = educ + 2*state_effect,
+             educ_state_noise = educ_state + noise,
+             educ_noise = educ + noise,
+             wage_state = 200 + 25*(educ_state) + 20*state_effect,
+             wage = 200 + 25*(educ))
+
+    return_OLS = summary(lm(wage_state~educ_state, data=return_groups))
+    return_2SLS = summary(ivreg(wage_state~educ_state 
+                        |group_number, data = return_groups))
+
+    
+    return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+    return_noise_OLS = summary(lm(wage ~ educ_noise, data = return_groups))
+    return_noise_2SLS = summary(ivreg(wage~educ_noise 
+                        |group_number, data = return_groups))
+    
+    
+    ols_est[i] = return_OLS$coefficients[2,1]
+    sls_est[i] = return_2SLS$coefficients[2,1]
+    peer_est[i] = return_2SLS$coefficients[2,1] - return_OLS$coefficients[2,1]
+    ols_noise_est[i] = return_noise_OLS$coefficients[2,1]
+    sls_noise_est[i] = return_noise_2SLS$coefficients[2,1]
+    peer_noise_est[i] = return_noise_2SLS$coefficients[2,1] - return_noise_OLS$coefficients[2,1]
+  }
+  results = data.frame(
+    ols_est = ols_est,
+    sls_est = sls_est,
+    peer_est = peer_est,
+    ols_noise_est = ols_noise_est,
+    sls_noise_est = sls_noise_est,
+    peer_noise_est = peer_noise_est
+  )
+}
+```
+```{r, include = FALSE}
+endog = endog_sim(1000)
+```
+First, we'll start by looking at the difference between the OLS and 2SLS estimates in the omitted variable bias case.
+```{r, echo = FALSE}
+ggplot(endog, aes(x = peer_est)) + 
+  geom_histogram(bins = 2000) +
+  geom_vline(aes(xintercept = 0)) +
+  geom_vline(aes(xintercept = quantile(peer_est,c(0.05, 0.95))[1] , color = "red")) +
+  geom_vline(aes(xintercept = quantile(peer_est,c(0.05, 0.95))[2] , color = "red")) +
+  coord_cartesian(xlim = c(-75,75))
+```
+The estimate of peer effects is biased usually slightly above the true value of 0. However, the true value 0 is within the 5th and 95th percentiles of estimated values.
+```{r, echo = FALSE}
+ggplot(endog, aes(x = peer_noise_est)) + 
+  geom_histogram(bins = 2000) +
+  geom_vline(aes(xintercept = 0)) +
+  geom_vline(aes(xintercept = quantile(peer_noise_est,c(0.05, 0.95))[1] , color = "red")) +
+  geom_vline(aes(xintercept = quantile(peer_noise_est,c(0.05, 0.95))[2] , color = "red")) +
+  coord_cartesian(xlim = c(-100,100))
+```
+Still need to come back to this; the 2SLS should make the attentuation from the noise less weak.
 
 # Solutions 
 
@@ -589,7 +769,7 @@ z_score
 We would then fail to reject a null hypothesis that the OLS and 2SLS parameters have a difference that is not equal to 0 at the 5% level. To test the robustness of this approach, I also conducted a Monte Carlo simulation. The monte carlo simulation repeated the above data generation and regressions 1000 times. The difference in coefficients between the 2SLS and OLS regressions and the z-scores of the difference in coefficients against a null hypothesis of equaling 0 are also plotted on histograms. The z-score histograms also include a blue vertical line at 1.96 and -1.96 (indicating statistical significance at 5%) and a red vertical line for 1.645 and -1.645 (indicating statistical significance at the 10% level). 
 ```{r, include = FALSE}
 no_peer_simulation = function(num_simulations) {
-  tecoeff_diff_values = numeric(num_simulations)
+  coeff_diff_values = numeric(num_simulations)
   z_scores = numeric(num_simulations)
   
     for (j in 1:num_simulations) {
