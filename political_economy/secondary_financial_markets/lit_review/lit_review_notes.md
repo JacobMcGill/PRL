@@ -14,7 +14,10 @@
    Notes (Charles): Similar to the 2nd paper, look out for discussion of exogenous factors affecting company exits, both in terms of probability and size of exit.
 5. The Decline in Venture-Backed IPOs: Implications for Capital Recovery
    Source: https://www.semanticscholar.org/paper/The-Decline-in-Venture-Backed-IPOs%3A-Implications-Chaplinsky-Gupta-Mukherjee/d22d0fbc309db8eb273544d60428d14002f937b9
-   Notes (Charles): Similar to papers two and four. Use to infom
+   Notes (Charles): Similar to papers two and four. Use to infom same
 6. CapitalVC: A Machine Learning Model for Startup Selection and Exit Prediction
    Source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3684185
    Notes (Charles): This paper is focused on predicting specific companies, so it won’t be entirely relevant for us since we’re trying to predict exits/returns of the entire asset class. But their ML methodologies could be insightful for us.
+7. Initial Public Offerings: VC-backed IPO Statistics Through 2023
+   Source: https://site.warrington.ufl.edu/ritter/files/IPOs-VC-backed.pdf
+   Notes (Charles): Valuable data on its own, also look at his notes to potentially inform variables affecting return predictions.

@@ -1,0 +1,2742 @@
+1
+Commonwealth Fusion Systems
+2
+Airbnb (NAS: ABNB)
+3
+Lacework
+4
+Barclays (LON: BARC)
+5
+Flipkart
+6
+SoftBank Group (TKS: 9984)
+7
+PhonePe
+8
+Dream Sports
+9
+Blend (NYS: BLND)
+10
+Revolut
+11
+SurveyMonkey
+12
+Zuoyebang
+13
+Flipkart
+14
+SenseTime (HKG: 00020)
+15
+Bitauto Holdings
+16
+Meicai
+17
+Nuro
+18
+Ola (Automotive)
+19
+Getir
+20
+MoonPay
+21
+Qonto
+22
+ShareChat
+23
+BharatPe
+24
+Danke Apartment
+25
+Relativity Space
+26
+ServiceTitan
+27
+Tiendanube
+28
+Brex
+29
+Checkout.com
+30
+Meicai
+31
+Socure
+32
+BYJU'S
+33
+Clickup
+34
+Dataiku
+35
+Hinge Health
+36
+Toast (NYS: TOST)
+37
+BharatPe
+38
+ICON (Real Estate Services)
+39
+Snyk
+40
+Cityblock
+41
+NEAR
+42
+PharmEasy
+43
+Weidian
+44
+GupShup
+45
+OfBusiness
+46
+Rokt
+47
+Scale AI
+48
+Vestiaire Collective
+49
+Medable
+50
+Coinbase Global (NAS: COIN)
+51
+DataRobot
+52
+Forter
+53
+Getir
+54
+Groq
+55
+HighRadius
+56
+Hinge Health
+57
+Postmates
+58
+TradingView
+59
+Spinny
+60
+Ankorstore
+61
+Avant (Chicago)
+62
+StockX
+63
+Genesis (Financial Software)
+64
+BOSS Zhipin (HKG: 02076)
+65
+SentinelOne (NYS: S)
+66
+Blockdaemon
+67
+CRED(Financial Software)
+68
+Bitso
+69
+ChargeBee
+70
+Deliverr
+71
+HoneyBook
+72
+Moglix
+73
+Papaya Global
+74
+Toast (NYS: TOST)
+75
+Stripe
+76
+ActiveCampaign
+77
+Oxyzo
+78
+NotCo
+79
+Missfresh (PINX: MFLTY)
+80
+Yotpo
+81
+Hopin
+82
+EquipmentShare
+83
+Olive ( Enterprise Systems)
+84
+Avant (Chicago)
+85
+Dream Sports
+86
+VTEX (NYS: VTEX)
+87
+dbt Labs
+88
+Slice (Consumer Finance)
+89
+Komodo Health
+90
+Public Holdings
+91
+Spendesk
+92
+Dave (NAS: DAVE)
+93
+DealShare
+94
+FalconX
+95
+OfBusiness
+96
+Cedar (Enterprise Systems (Healthcare))
+97
+DispatchHealth
+98
+Divvy Homes
+99
+Dutchie
+100
+Highspot
+101
+Moveworks
+102
+Nova Labs
+103
+Sensors Data
+104
+NoBroker
+105
+TrueLayer
+106
+Contentful
+107
+Lattice
+108
+Snyk
+109
+Flutterwave
+110
+JOKR
+111
+Veho
+112
+Moloco
+113
+AlloCiné
+114
+Patreon
+115
+Scalapay
+116
+Scale AI
+117
+Aihuishou (NYS: RERE)
+118
+CHEQ
+119
+Cribl
+120
+Flock Safety
+121
+Katapult (Consumer Finance) (NAS: KPLT)
+122
+Locus Robotics
+123
+OutSystems
+124
+Pure Storage (NYS: PSTG)
+125
+Roblox (NYS: RBLX)
+126
+SnapDocs
+127
+VIP Peilian
+128
+Wheel Health
+129
+Xendit
+130
+eHi Auto Services
+131
+CertiK
+132
+Opto Investments
+133
+DealShare
+134
+RenoRun
+135
+Despegar.com (NYS: DESP)
+136
+Oscar Health (NYS: OSCR)
+137
+Virta Health
+138
+Current (Commercial Banks)
+139
+Emerge (Scottsdale)
+140
+TRM Labs
+141
+Zhenkunhang (NYS: ZKH)
+142
+ChargeBee
+143
+Cohere
+144
+Infra.Market
+145
+Productboard
+146
+Wasoko
+147
+Nylas
+148
+Yunmanman
+149
+CloudTrucks
+150
+SeekOut
+151
+Bizongo
+152
+Divvy Homes
+153
+Karat
+154
+Outschool
+155
+Redis
+156
+Timescale
+157
+Spinny
+158
+Innovaccer
+159
+TigerGraph
+160
+Rapyd Financial Network
+161
+Infra.Market
+162
+Ankorstore
+163
+Mark43
+164
+Porter
+165
+Kandji
+166
+Ninjacart
+167
+Actifio
+168
+Alkira
+169
+AngelList
+170
+Apna
+171
+Arcadia Power
+172
+Baibu
+173
+BigID
+174
+DadaABC
+175
+Dianxiaomi
+176
+Humane
+177
+Kong
+178
+Moka HR SaaS
+179
+Path Robotics
+180
+Root Insurance (NAS: ROOT)
+181
+Saavn
+182
+ShopClues.com
+183
+Stripe
+184
+TaxBit
+185
+VAST Data
+186
+VAST Data
+187
+Veriff
+188
+Viz.ai
+189
+WellFound
+190
+Wrapbook
+191
+YatsenGlobal (NYS: YSG)
+192
+Pristyn Care
+193
+Flipdish
+194
+Rhino
+195
+MoneyView
+196
+Stake
+197
+Jupiter (Financial Software)
+198
+INDmoney
+199
+Vedantu
+200
+Spenmo
+201
+Unacademy
+202
+Moss
+203
+Delhivery (BOM: 543529)
+204
+OctoAI
+205
+Pitch
+206
+Groww
+207
+Refyne
+208
+Cresta
+209
+Hyperscience
+210
+Kong
+211
+M2P Fintech
+212
+Quora
+213
+Factorial
+214
+Hologram
+215
+OkCredit
+216
+OnDeck
+217
+Spring Health
+218
+Urban Company
+219
+Carrot (Healthcare Services)
+220
+JD.com (HKG: 09618)
+221
+Outschool
+222
+Procore Technologies (NYS: PCOR)
+223
+RelationalAI
+224
+Run:AI
+225
+SignalFx
+226
+Vecna Robotics
+227
+Wealthfront
+228
+Xentral
+229
+Classplus
+230
+Mr Yum
+231
+Captain Fresh
+232
+Productboard
+233
+Tyro Payments (ASX: TYR)
+234
+Jellyfish
+235
+On Deck
+236
+Progcap
+237
+Apna
+238
+Bazaar Technologies
+239
+Danke Apartment
+240
+Embark Trucks
+241
+Glassdoor
+242
+Weave ( Business/Productivity Software) (NYS: WEAV)
+243
+Shippit
+244
+Buf
+245
+Blank Street
+246
+AfterShip
+247
+BRYTER
+248
+SeekOut
+249
+Classplus
+250
+Grab (NAS: GRAB)
+Series B
+01-Dec-2021
+Early Stage VC
+1,800.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Advection Growth Capital, Alphabet (NAS: GOOGL), Armada Investment, Bill Gates, Brainstorm Ventures, Breakthrough Energy (Carmichael Roberts), CAZ Investments, Coatue Management, Collaborative Fund, DFJ Growth (Randall Glein), Emerson Collective, Engine Ventures (Katie Rae), Eni Next, Equinor Ventures (Parker Malone), F-Prime Capital, FootPrint Coalition Ventures, Future Ventures (San Francisco), Google Foundation, Gray's Creek Capital Partners, Happiness Capital, Helena Special Investments, Hestia Venture Partners, Hostplus Superannuation Fund, Jameel Investment Management Company, John Doerr (John Doerr), JS Capital (M), Khosla Ventures, Lowercarbon Capital, Moonshot Investor Network, Moore Strategic Ventures, Safar Partners, Sand Hill Angels, Schooner Capital, Senator Investment Group, Soros Fund Management, Starbridge Venture Capital, Starlight Ventures, Strong Atomics, Temasek Holdings, Thoobik Holdings, Tiger Global Management, Time Ventures, Tisch Family, Vision Capital Group, Yield Capital Partners
+Series E
+20-Nov-2015
+Later Stage VC
+1,600.00
+25,500.00
+Completed
+Venture Capital-Backed
+Profitable
+3Spoke Capital, ACE Ventures (Geneva), ADIT Ventures, Aglaé Ventures, Baillie Gifford, China Broadband Capital Partners, Fidelity Investments, FirstMark Capital, General Atlantic (Anton Levy), Geodesic Capital (Ashvin Bachireddy), Hillhouse Investment Group, HongShan, Horizon Ventures, Kleiner Perkins, Lakestar, Late Stage Management, Man Capital, Notable Capital (Glenn Solomon), Principal Financial Group (NAS: PFG), Sequoia Capital (Gregory McAdoo), Slow Ventures, T. Rowe Price Group (NAS: TROW), The Hartford Financial Services Group (NYS: HIG), The Vanguard Group, Tiger Global Management, Variable Annuity Life Insurance Company, Wellington Management
+Series D
+12-Nov-2021
+Later Stage VC
+1,300.00
+8,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+A&E Investments, Alder Companies, Altimeter Capital Management, Alumni Ventures (Todd McIntyre), Basecamp Fund, Coatue Management, Counterpoint Global (Dennis Lynch), Crowd Venture Capital, D1 Capital Partners, Dragoneer Investment Group, Durable Capital Partners, Franklin Templeton (NYS: BEN) (Matt Cioppa), Franklin Venture Partners, General Catalyst, GV, Human Capital, K5 Global, Liberty Global Ventures Group, Snowflake Ventures, Still Capital Partners, Sutter Hill Ventures (Michael Speiser), Tiger Global Management, XN
+
+01-Nov-2017
+PIPE
+1,000.00
+40,000.00
+Completed
+Corporation
+Profitable
+Tiger Global Management
+Series F
+29-Jul-2014
+Later Stage VC
+1,000.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Subrata Mitra), DST Global (Yuri Milner), GIC (Singapore), ICONIQ Growth, Morgan Stanley Expansion Capital, Naspers (JSE: NPN), Sofina (BRU: SOF), Tiger Global Management
+11-Jul-2018
+Secondary Transaction - Open Market
+1,000.00
+Completed
+Corporation
+Profitable
+Igah Ventures, Tiger Global Management (Chase Coleman)
+23-May-2023
+Later Stage VC
+844.76
+Completed
+Venture Capital-Backed
+Generating Revenue
+General Atlantic (Shantanu Rastogi), Microsoft (NAS: MSFT), Qatar Investment Authority, Ribbit Capital (Meyer Malka), Tencent Holdings (HKG: 00700), Tiger Global Management (Scott Shleifer), TVS Capital (Gopal Srinivasan), Walmart (Bentonville) (NYS: WMT) (Judith McKenna)
+24-Nov-2021
+Later Stage VC
+840.00
+8,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global, AustralianSuper, Chimera Capital, D1 Capital Partners, DST Global (Rahul Mehta), East Dune Holdings, Footpath Ventures, Middleton Partners, RedBird Capital Partners, Tiger Global Management, TPG (NAS: TPG)
+Series G
+13-Jan-2021
+Later Stage VC
+800.00
+3,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+500 Global, Coatue Management (Kris Fredrickson), LDV Partners, LeFrak, Lennar Ventures, Loka Capital, NP Capital, Ossa Investments, Spur Capital Partners, Summit Peak Investments, Tiger Global Management (John Curtius)
+Series E
+01-Jul-2021
+Later Stage VC
+800.00
+33,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global, AMK Investment Office, Atlant Ventures, Chimera Capital, Global Venture Management, Manhattan Venture Partners, Pario Ventures, Pointer Capital (AngelList Venture), Sahra Growth Capital, Schroders (LON: SDR), Setcoin Group, SoftBank Investment Advisers (Karol Niewiadomski), Target Global, Tiger Global Management (Scott Shleifer)
+17-Jan-2013
+Secondary Transaction - Private
+800.00
+1,350.00
+Completed
+Private Equity-Backed
+Profitable
+CapitalG, Craig Sherman (Craig Sherman), ICONIQ Growth, Jeffrey Weiner (Jeffrey Weiner), Laurel Crown Capital, Salesforce Ventures, Social Capital, Tiger Global Management (Lee Fixel)
+Series E
+29-Jun-2020
+Later Stage VC
+750.00
+7,250.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+FountainVest Partners, HongShan, Kamet Capital Partners, Qatar Investment Authority, SoftBank Investment Advisers, Teachers' Venture Growth, Tiantu Capital (HKG: 01973), Tiger Global Management, Xiang He Capital
+28-Dec-2015
+Later Stage VC
+700.00
+15,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Subrata Mitra), Bryan Johnson (Bryan Johnson), GIC (Singapore), Kevin Colleran (Kevin Colleran), KG Investments, Lee Linden (Lee Linden), Manhattan Venture Partners, Morgan Stanley Expansion Capital, Naspers (JSE: NPN), Nima Capital, Pokora Capital (Ben Federman), Qatar Investment Authority, Steadview Capital Management, T. Rowe Price Group (NAS: TROW), The Vanguard Group, Tiger Global Management, TR Advisors
+Series C1
+31-May-2018
+Later Stage VC
+643.61
+4,518.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+5Y Capital, All-Stars Investment, Alpha Intelligence Capital (Terry Chou), Bank of China Group Investment, Fidelity International, Glade Brook Capital Partners (Paul Hudson), Greater Bay Area Homeland, Green Pine Capital Partners, Hopu Investment Management, Poly Capital Management, Qualcomm Ventures, Sailing Capital, Shanghai Free Trade Zone Equity Fund, Shanghai Shimao Company, Shenzhen Capital Group, Silver Lake, SoftBank Investment Advisers, Tiger Global Management
+
+12-Sep-2014
+PIPE
+600.00
+4,026.85
+Completed
+Venture Capital-Backed
+Profitable
+Tiger Global Management
+Series E1
+10-Oct-2018
+Later Stage VC
+600.00
+7,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Hillhouse Investment Group, Tiger Global Management, VMS Asset Management
+Series D
+15-Oct-2021
+Later Stage VC
+600.00
+8,600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+2B Global Capital, Alphabet (NAS: GOOGL), Baillie Gifford, Banyan Capital Partners, Bow Capital, Connetic Ventures, Fidelity Management & Research, Gaorong Capital, GV, Kroger (NYS: KR) (Yael Cosset), SoftBank Investment Advisers, The General Partnership, Tiger Global Management (Griffin Schroeder), Woven Capital (Michiko Kato)
+Series F
+18-Nov-2015
+Later Stage VC
+578.94
+4,073.96
+Completed
+Venture Capital-Backed
+Generating Revenue
+ABG Capital, Baillie Gifford, Blume Ventures, Daniel Neary, DiDi Global (PINX: DIDIY), DST Global (Rahul Mehta), Falcon Capital (London), JS Capital (M), Parkwood Bespin, Peak XV Partners, Ratan Tata (Ratan Tata), SoftBank Investment Advisers, Steadview Capital Management (Ravi Mehta), Sudhir Kunder (Sudhir Kunder), The Vanguard Group, Tiger Global Management
+Series D
+04-Jun-2021
+Later Stage VC
+555.00
+7,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ADQ, Altun Capital, Decisive Capital Management, Mubadala Investment Company, Sequoia Capital, Silver Lake, Tiger Global Management, Winter Capital Partners (Anton Farlenkov)
+Series A
+13-Apr-2022
+Early Stage VC
+555.00
+3,400.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+1/1 Capital, 11:11 Media, 7feur, Abel Tesfaye (Abel Tesfaye), Adel Nur (Adel Nur), Afshin Shahidi (Afshin Shahidi), AG Ventures, Ahmir Thompson (Ahmir Thompson), Alecla7, Amir Esmailian (Amir Esmailian), Andreessen Horowitz, Animoca Brands, Anthony Kiedis (Anthony Kiedis), Artfo Holdings, Ashton Kutcher (Ashton Kutcher), Atacama Ventures, Aubrey Graham (Aubrey Graham), BLOND ISH (BLOND ISH), Blossom Capital (Ophelia Brown), Brent Faiyaz (Brent Faiyaz), Brie Larson (Brie Larson), Bruce Willis (Bruce Willis), Calvin Broadus (Calvin Broadus), Castle Island Ventures, Champ Medici (Champ Medici), Chapter One, Coatue Management (Kris Fredrickson), Connect Ventures (Venture Capital), David Grutman (David Grutman), Digital (US), Dimitri Vegas (Dimitri Vegas), Diplo, Drake Nur (Drake Nur), DreamCrew, Eric Eisner (Eric Eisner), Evan Longoria (Evan Longoria), FEWOCiOUS, FJ Labs, Gal Gadot (Gal Gadot), Gee Roberson (Gee Roberson), Gerald Gillum (Gerald Gillum), Gibson Hazard (Gibson Hazard), Global Tech Ventures, Gwyneth Paltrow (Gwyneth Paltrow), HOF Capital, Human Capital, Hypescale Ventures, I2BF Global Ventures, Ignite, James Corden (James Corden), Jamil Davis (Jamil Davis), Jason Derulo (Jason Derulo), JAWS Estates Capital, Jayne Andrews (Jayne Andrews), Justin Bieber (Justin Bieber), K2 Global, Karan Wadhera (Karan Wadhera), Kate Hudson (Kate Hudson), Katie McGrath (Katie McGrath), Keri Shahidi (Keri Shahidi), Kevin Yorn (Kevin Yorn), Kimberly Blackwell (Kimberly Blackwell), Kinship Ventures (Gwyneth Paltrow), Kora Management, Larry Gagosian (Larry Gagosian), Like Mike (Like Mike), Lil Baby (Lil Baby), Lil Durk (Lil Durk), Mantis VC, Marc Benioff (Marc Benioff), Marcy Venture Partners, Maria Sharapova (Maria Sharapova), Matt Bauerschmidt (Matt Bauerschmidt), Matt Colon (Matt Colon), Matte Babel (Matte Babel), Matthew McConaughey (Matthew McConaughey), Michael Ovitz (Michael Ovitz), Mindy Kaling (Mindy Kaling), Moj Mahdara (Moj Mahdara), Nancy Twine (Nancy Twine), New Enterprise Associates, Nick Adler (Nick Adler), Night Ventures, Northstar.VC, Palm Tree Crew Investments, Paradigm (Crypto Fund) (Matthew Huang), Paris Hilton (Paris Hilton), Paul George (Paul George), Plus Capital, Polygon Studios, Post Malone (Post Malone), Quiet Capital, Rick Yorn (Rick Yorn), Ryan Tedder (Ryan Tedder), Sam Feldt (Sam Feldt), Scooter Braun (Scooter Braun), Shailene Woodley (Shailene Woodley), Shawn Mendes (Shawn Mendes), Shay Mitchell (Shay Mitchell), Shrug Capital, Solana (Investor), Sound Ventures (Guy Oseary), Stacey Bendet (Stacey Bendet), Steve Aoki (Steve Aoki), TA Ventures, The Aventures, The Chainsmokers, The Ropart Asset Management Funds, Thrive Capital, Tiger Global Management (John Curtius), Tribe Capital, Trina Spear (Trina Spear), True Capital Management, Ty Baisden (Ty Baisden), Ullas Naik (Ullas Naik), Valhalla Ventures, Warner Music Group (NAS: WMG), Wave7, Yara Shahidi (Yara Shahidi), Zoe Saldana (Zoe Saldana), ZoiBel
+Series D
+11-Jan-2022
+Later Stage VC
+549.83
+4,977.85
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alkeon Capital Management (Deepak Ravichandran), Alven Capital Partners, Ashley Flucas (Ashley Flucas), DST Global, Eurazeo (PAR: RF), EXOR Seeds, finleap, Gaingels, HV Capital (Barbod Namini), Ilavska Vuillermoz Capital, Insight Partners, Kohlberg Kravis Roberts (NYS: KKR), Redstone VC, RTP Global, TCV (John Doran), Tencent Holdings (HKG: 00700), Tiger Global Management (John Curtius), Valar Ventures, VR Ventures, Zinal Growth
+Series E
+07-Apr-2021
+Later Stage VC
+502.00
+2,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+India Quotient, Lightspeed Venture Partners, Snap (NYS: SNAP), Tencent Holdings (HKG: 00700), Tiger Global Management, Venture Highway, X Corp. (Seksom Suriyapa)
+Series F
+01-Jan-2023
+Later Stage VC
+500.00
+5,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Coatue Management (Rahul Kishore), D1 Capital Partners, Ribbit Capital (Meyer Malka), Sigurd Ventures, Tiger Global Management
+Series C
+28-Feb-2019
+Later Stage VC
+500.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Ant Group, CMC Capital Partners, Gaorong Capital, Joy Capital (Beijing) (Erhai Liu), Primavera Capital Group, Tiger Global Management
+Series D
+23-Nov-2020
+Later Stage VC
+500.00
+2,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+10H Capital, 3L Capital, 75 & Sunny, Allen & Company, Artfo Holdings, Baillie Gifford, Bold Capital Partners, BOND Capital (San Francisco) (Noah Knauf), Elad Gil, Ethos VC, Fidelity Management & Research, General Catalyst, ICONIQ Growth, K5 Global, Mark Cuban (Mark Cuban), Playground Global (Jory Bell), Senator Investment Group, Spencer Rascoff (Spencer Rascoff), Tiger Global Management, Tribe Capital (Arjun Sethi), XN
+Series F
+25-Mar-2021
+Later Stage VC
+500.00
+8,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Arena Holdings, Battery Ventures (Michael Brown), Bessemer Venture Partners (Byron Deeter), Dragoneer Investment Group (Christian Jensen), Durable Capital Partners, Founders Circle Capital, H.I.G. Growth Partners (Anthony Tamer), ICONIQ Growth, Index Ventures (Nina Achadjian), K5 Global, Next Play Capital, Reform Ventures, Sequoia Capital (Jeff Wang), T. Rowe Price Group (NAS: TROW), Tiger Global Management (Chase Coleman)
+Series E
+17-Aug-2021
+Later Stage VC
+500.00
+3,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Andrew Braccia), Alkeon Capital Management (Mark McLaughlin), ARC Capital (Brazil) (Sergio Machado), Insight Partners, Kaszek (Nicolas Szekasy), Kevin Efrusy (Kevin Efrusy), Owl Rock Capital Group (Andy Lefkarites), Qualcomm Ventures (Michel Glezer), Sunley House Capital Management, ThornTree Capital Partners, Tiger Global Management, VMG Partners
+Series D
+26-Apr-2021
+Later Stage VC
+480.00
+7,780.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Baillie Gifford, Base10 Partners, DST Global, Durable Capital Partners, Endeavor Catalyst, GIC (Singapore), Greenoaks Capital Partners, IVP, Lone Pine Capital, Madrone Capital Partners, Ribbit Capital (Meyer Malka), TCV, Tiger Global Management (Scott Shleifer), Valiant Capital Partners, Y Combinator (Anu Hariharan)
+Series C
+12-Jan-2021
+Later Stage VC
+450.00
+15,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Blossom Capital, Coatue Management, DST Global, Endeavor Catalyst, GIC (Singapore), Greenoaks Capital Partners, Insight Partners (Deven Parekh), Tech Nation Group, Tiger Global Management (Scott Shleifer)
+Series E
+11-Jan-2018
+Later Stage VC
+450.00
+2,800.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+CMC Capital Partners, Genesis Capital (Hong Kong), Tiger Global Management
+Series E
+09-Nov-2021
+Later Stage VC
+450.00
+4,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (John Locke), Apple Core Holdings, Bain Capital, Bain Capital Ventures, Burch Creative Capital, Capital One Ventures (Jaidev Shergill), Commerce Ventures (Daniel Rosen), Goanna Capital, Industry Ventures, Invus Opportunities, La Maison Partners, Orchard Ventures, Scale Venture Partners (Rory O'Driscoll), Scale-Up (Venture Capital), Sorenson Ventures, T. Rowe Price Group (NAS: TROW), Tiger Global Management, West Coast Equity Partners
+Series F
+09-Jan-2020
+Later Stage VC
+400.00
+8,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+General Atlantic, Tiger Global Management (Scott Shleifer)
+Series C
+27-Oct-2021
+Later Stage VC
+400.00
+4,050.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (David George), HubSpot Ventures, Lightspeed Venture Partners, Meritech Capital Partners, Tiger Global Management
+Series E
+05-Aug-2021
+Later Stage VC
+400.00
+4,665.22
+Completed
+Venture Capital-Backed
+Generating Revenue
+Battery Ventures (Neeraj Agrawal), CapitalG (Derek Zanutto), Dawn Capital, Eurazeo (PAR: RF), FirstMark Capital, Gaingels, ICONIQ Growth, Insight Partners (Teddie Wardi), Lightrock, Olivier Pomel (Olivier Pomel), Orange Ventures (Maël Rohrig), Snowflake Ventures (Stefan Williams), Tiger Global Management (John Curtius)
+Series E
+22-Oct-2021
+Later Stage VC
+400.00
+6,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alkeon Capital Management (Abhi Arun), Breton Capital Ventures, Coatue Management (Lucas Swisher), Industry Ventures, IP Group (LON: IPO), NewView Capital, Surf Club Ventures, TCV, Tiger Global Management (Scott Shleifer), Whale Rock Capital Management
+Series F
+12-Feb-2020
+Later Stage VC
+400.00
+4,900.00
+Completed
+Venture Capital-Backed
+Generating Revenue/Not Profitable
+2B Global Capital, 9Yards Capital, ACE Ventures (Geneva), All Blue Capital, Alta Park Capital, American Express Ventures (Julia Huang), Bessemer Venture Partners (Kent Bennett), Clear Ventures, Counterpart Advisors, Durable Capital Partners, Evolution VC Partners, F-Prime Capital, Factorial Funds, G Squared (Larry Aschebrook), Global Tech Ventures, Glynn Capital, Greenoaks Capital Partners, Kilmahew Ventures, Light Street Capital Management, Summit Peak Investments, T. Rowe Price Group (NAS: TROW), TCV (David Yuan), Tiger Global Management, TPG (NAS: TPG), TriplePoint Capital, Vetamer Capital, WillowTree Investments
+Series E
+03-Aug-2021
+Later Stage VC
+395.52
+1,082.83
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alteria Capital, Amplo (Spring), Beams Fintech Fund, Coatue Management (Rahul Kishore), Dragoneer Investment Group, Elev8 Venture Partners, Insight Partners (John Weinstein), Peak XV Partners (Harshjit Sethi), Pradeep Mehra (Pradeep Mehra), Ribbit Capital (Meyer Malka), STEADFAST Capital Ventures, Survam Partners, Tiger Global Management
+Series B
+18-Feb-2022
+Later Stage VC
+392.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+8VC, Ambassador Supply, Bjarke Ingels Group, BOND Capital (San Francisco), Bond Corporation, Citi Impact Fund, Crosstimbers Capital Group, Ensemble VC, Evolution VC Partners, Fifth Wall, G-51 Capital, Gaingels, Hammerstone Capital, Lennar Ventures, Moderne Ventures (Constance Freedman), Montauk Ventures, Norwest Venture Partners (Jeffrey Crowe), Oakhouse Partners, OurCrowd, Platinum Mile Ventures, Preceptor Capital, PROOF, Red Hook Capital, Sand Hill Angels, Taurus Ventures, Tiger Global Management, Upside Growth Partners
+Series F
+10-Jan-2022
+Later Stage VC
+379.00
+8,600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Philippe Botteri), Addition, Alkeon Capital Management, Atlassian Foundation, Atlassian Ventures, Baillie Gifford, BlackRock (NYS: BLK), Boldstart Ventures (Edward Sim), Canaan Partners, Coatue Management, Franklin Templeton (NYS: BEN), Geodesic Capital (Jonathan Rezneck), Koch, Leaders Fund, Lone Pine Capital, Lontra Ventures, Nelstone Ventures, OMERS Ventures, Salesforce Ventures (Nowi Kallen), Sands Capital, T. Rowe Price Group (NAS: TROW), Temasek Holdings, Tiger Global Management, Whale Rock Capital Management, ZoiBel
+Series C
+29-Mar-2021
+Later Stage VC
+352.00
+3,052.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+8VC, Echo Health Ventures, General Catalyst (Hemant Taneja), Goldman Sachs Asset Management, Kinnevik (STO: KINV A) (Christopher Bischoff), Maverick Capital (Ambar Bhattacharyya), Maverick Ventures (Ambar Bhattacharyya), Redpoint Ventures (Elliot Geidt), Thrive Capital, Tiger Global Management (Scott Shleifer), Wellington Management
+
+06-Apr-2022
+Later Stage VC
+350.00
+10,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+AU21 Capital, Blockchange Ventures, Corner Capital Management (Marvin Tien), Dragonfly Capital (San Francisco), FTX Ventures, Grupo HS3, Hashed, Kosmos Ventures, MetaWeb Ventures, ParaFi Capital, Shift Capital (Luxembourg), SID Venture Partners, TAG Ventures (Vietnam), Tiger Global Management, Woodstock Fund
+Series E
+07-Apr-2021
+Later Stage VC
+350.00
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Caisse de dépôt et placement du Québec, Eight Roads (Prem Pavoor), Everstone Capital (Puncham Mukim), F-Prime Capital, LGT Group, Prosus Ventures (Ashutosh Sharma), Temasek Holdings, Think Investments (San Francisco), Tiger Global Management, TPG (NAS: TPG)
+Series C
+23-Oct-2014
+Later Stage VC
+350.00
+1,450.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global, Coatue Management, DST Global, Falcon Capital (London), Glade Brook Capital Partners (Paul Hudson), H Capital, Invus Opportunities, KG Investments, New Enterprise Associates (Anthony Florence), Smith Family Circle, Tencent Investment, Tiger Global Management, Vy Capital
+Series F
+28-Jul-2021
+Later Stage VC
+340.00
+1,540.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ADS Ventures, Fidelity Management & Research, FinSight Ventures, Harbor Spring Capital (Subir Jajoo), InvestX, K3 Diversity Ventures, Malabar Investments (Sumeet Nagar), Neeraj Arora (Neeraj Arora), Neman Ventures, Neuberger Berman Investment Advisers, Ocgrow Ventures, Skywell Capital Partners, Spur Capital Partners, SquareOne Capital, Techstars, Think Investments (San Francisco) (Shashin Shah), Tiger Global Management (John Curtius), White Oak Equity Partners
+Series G
+20-Dec-2021
+Later Stage VC
+325.00
+5,000.00
+Completed
+Venture Capital-Backed
+Profitable
+Alpha Wave Global (Navroz Udwadia), Chimera Capital, Marshall Wace, Panthera Growth Partners, Patni Financial Advisors, SoftBank Group (TKS: 9984), Tiger Global Management, Tykhe Block Ventures
+Series E
+01-Dec-2021
+Later Stage VC
+325.00
+1,950.00
+Completed
+Venture Capital-Backed
+Profitable
+AustralianSuper, Hostplus Superannuation Fund, MA Growth Ventures, Pavilion Capital, Square Peg Capital, TDM Growth Partners (Tom Cowan), Tiger Global Management (Griffin Schroeder), Wellington Management, Whale Rock Capital Management
+Series E
+13-Apr-2021
+Later Stage VC
+325.00
+7,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bedrock, Blue Opal Capital (Federico Jost), Coatue Management, Dragoneer Investment Group, DT Unicorn Fund, Durable Capital Partners, First Serve Partners, Founders Fund, Greenoaks Capital Partners (Neil Mehta), Human Capital, Human Capital Development, Index Ventures (Michelangelo Volpi), Inertia Ventures, Not Boring, NP Capital, Tiger Global Management, Wellington Management, Y Combinator
+
+01-Mar-2021
+Later Stage VC
+307.70
+1,258.40
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bpifrance (Charlotte Corbaz), Condé Nast (Jonathan Newhouse), Eurazeo (PAR: RF) (Yann-Hervé du Rusquec), Fidelity International, Generation Investment Management (Shalini Rao), Idinvest Partners, Kering (PAR: KER) (Francois-Henri Pinault), Korelya Capital (Paul Degueuse), Luxury Tech Fund, SoftBank Investment Advisers, SVF Investment 2, Tiger Global Management (Griffin Schroeder), Vitruvian Partners
+Series D
+26-Oct-2021
+Later Stage VC
+304.00
+2,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ACVC Partners, Anula Jayasuriya (Anula Jayasuriya), Blackstone (NYS: BX) (Ram Jagannath), Emerson Collective, GSR Ventures China, Kin Ventures (Tina Hoang-To), North Sky Capital, Sapphire Ventures (David Hartwig), Tiger Global Management, Western Technology Investment
+Series E
+16-Nov-2018
+Later Stage VC
+300.00
+8,042.90
+Completed
+Venture Capital-Backed
+Profitable
+#adm Ventures, 1Confirmation, 9Yards Capital, A.Capital Ventures, Acrew Capital, Andreessen Horowitz (Christopher Dixon), Bonds Investment Group, Eudaimonia Capital, FundersClub, GIC (Singapore), Hard Yaka, Initialized Capital Management (Garry Tan), K2 Global, K5 Global, Knickerbocker Capital (New York), Manhattan Venture Partners, Mentor Capital (PINX: MNTR), Migration Capital, Mosaic General Partnership, Nelstone Ventures, Next Play Capital, Next Ventures, Pantera Capital, Pegasus Tech Ventures, Polychain Capital, Pritzker Group Venture Capital, Refactor Capital, Reform Ventures, SciFi VC, Serena Ventures, Silver 8 Capital, Starchain Capital, The Spaventa Group, Tiger Global Management, Trousdale Ventures, Wellington Management, Y Combinator
+Series G
+07-Oct-2021
+Later Stage VC
+300.00
+6,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Aliya Capital Partners, Altimeter Capital Management, Counterpoint Global, Fama Ventures, Franklin Templeton (NYS: BEN), Franklin Venture Partners, G20 Ventures, HMC Capital, Investbridge Capital, J17 Capital, London Technology Club, Morgan Stanley (NYS: MS), New Enterprise Associates (Anthony Florence), Nordstar Partners, Norwest Venture Partners, Rakuten Capital, RTP Global, Salesforce Ventures, SBI Investment, ServiceNow Ventures, Sutter Hill Ventures (Chad Peets), The Westly Group, Tiger Global Management (John Curtius)
+Series F
+25-May-2021
+Later Stage VC
+300.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Adage Capital Management, Angular Ventures, Bessemer Venture Partners, Citi Ventures, Industry Ventures, March Capital (Jamie Montgomery), New Enterprise Associates, NewView Capital, Philippe Suchet (Philippe Suchet), Salesforce Ventures, Samsung NEXT Ventures, Scale Venture Partners (Rory O'Driscoll), Sequoia Capital (Shmuel Levy), Third Point Ventures, Tiger Global Management (John Curtius)
+Series C
+26-Mar-2021
+Later Stage VC
+300.00
+2,600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Finberg, Goodwater Capital, Neil Singh, Sequoia Capital, Tiger Global Management
+Series C
+14-Apr-2021
+Later Stage VC
+300.00
+1,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Acequia Capital, Addition (Lee Fixel), Alumni Ventures, Artfo Holdings, Asas Capital, Blockchain Capital, Boardman Bay Capital Management, Cambium Capital Management, D1 Capital Partners, Daniel Gross (Daniel Gross), Firebolt Ventures, GarageCapital, GCM Grosvenor (NAS: GCMG), General Global Capital, Goanna Capital, In-Q-Tel, Infinitum Partners, Jeffery Brown (Jeffery Brown), Junipero, Kingfisher Investment Advisors, Kyle Vogt (Kyle Vogt), Maropost Ventures, Mighty Capital, Nachshon Ventures, Nat Friedman (Nat Friedman), Prithvi Ventures, Snow Fox Partners, Spruce House Investment Management, TDK Ventures (Nicolas Sauvage), Tiger Global Management (Scott Shleifer), Transpose Platform Management (Trang Nguyen), True Arrow Capital Management, Verdure Capital Management, XN, XTX Ventures
+Series C
+30-Mar-2021
+Later Stage VC
+300.00
+3,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Craig Courtemanche (Craig Courtemanche), D1 Capital Partners (Daniel Sundheim), Frank Slootman (Frank Slootman), Howie Liu (Howie Liu), ICONIQ Growth (William Griffith), Michael Scarpelli (Michael Scarpelli), Susquehanna Growth Equity (Amir Goldman), Tiger Global Management (John Curtius)
+Series D
+06-Jan-2021
+Later Stage VC
+300.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+11.2 Capital, Atomico (Benjamin Blume), Bessemer Venture Partners (Stephen Kraus), Coatue Management (Lucas Swisher), Heuristic Capital Partners, Hinge Capital, Insight Partners (Teddie Wardi), Lead Edge Capital, Quadrille Capital, Tiger Global Management (Scott Shleifer)
+Series E
+18-Sep-2018
+Later Stage VC
+300.00
+1,011.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+RAA Ventures, Tiger Global Management (Scott Shleifer), Uncork Capital (Jean-Francois Clavier)
+
+14-Oct-2021
+PE Growth/Expansion
+298.00
+3,000.00
+Completed
+Private Equity-Backed
+Generating Revenue
+Akkadian Ventures, Hedosophia, Tiger Global Management
+Series E
+24-Nov-2021
+Later Stage VC
+285.25
+1,751.53
+Completed
+Venture Capital-Backed
+Generating Revenue
+Abu Dhabi Growth Fund, Accel (Anand Daniel), Arena Holdings, Avenir Growth Capital, General Catalyst, Hartmann Holdings, KB Investment, Sachin Tendulkar (Sachin Tendulkar), Tiger Global Management
+Series C
+09-Jan-2022
+Later Stage VC
+282.72
+1,979.53
+Completed
+Venture Capital-Backed
+Generating Revenue
+Aglaé Ventures, Alven Capital Partners, Bain Capital Ventures (Merritt Hummer), BOND Capital (San Francisco) (Mood Rowghani), Coatue Management, Eurazeo (PAR: RF), Global Founders Capital (David Sainteff), Index Ventures (Martin Mignot), Sofina (BRU: SOF), TCV, Tiger Global Management (John Curtius)
+Series C
+23-Jul-2014
+Later Stage VC
+275.00
+375.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Tiger Global Management
+Series E
+15-Dec-2020
+Later Stage VC
+275.00
+2,800.00
+Completed
+Venture Capital-Backed
+Profitable
+Altimeter Capital Management, Annox Capital (Robert Mylod), General Atlantic, Notable Capital (Hans Tung), Sands Capital, Tiger Global Management (Griffin Schroeder), Whale Rock Capital Management
+Series C
+27-Jul-2022
+Later Stage VC
+271.88
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Andrei Brasoveanu), Bank of America (NYS: BAC) (David Tyrie), BNY Mellon (NYS: BK) (Avi Shua), Citigroup (NYS: C) (Nikhil Joshi), GV, Illuminate Financial Management (Mark Beeston), Insight Partners (Jonathan Rosenbaum), Salesforce Ventures, Tiger Global Management (John Curtius), Tribeca Early Stage Partners
+
+27-Nov-2020
+Later Stage VC
+270.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+China Renaissance (HKG: 01911), Coatue Management, HongShan, i-Qu & Co, Mubadala Investment Company, Notable Capital, Tiger Global Management
+Series F
+11-Nov-2020
+Later Stage VC
+267.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+345 Partners, Factorial Funds, Insight Partners (Teddie Wardi), Irving Investors, Platinum Capital vc, Qualcomm Ventures, Sequoia Capital (Patrick Fu), Shasta Ventures, Third Point Ventures (Robert Schwartz), Tiger Global Management (John Curtius)
+Series C
+26-Jan-2022
+Later Stage VC
+253.00
+3,370.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Aurum Venture Partners, Boldstart Ventures (Edward Sim), Borderless Capital, Citi Ventures, EQUIAM, Galaxy Digital Holdings (TSE: GLXY), Heavybit (Jesse Robbins), JPMorgan Elect, Kenetic Capital, Lerer Hippeau, Marshall Wace, Matrix Capital Management, Salesforce Ventures, Samuel Harrison (Samuel Harrison), Sapphire Ventures (Jayendra Das), Scott Robinson (Scott Robinson), SoftBank Investment Advisers (Nagraj Kashyap), StepStone Group (NAS: STEP), Tessera Venture Partners, Tiger Global Management, Titanium Ventures, Verdure Capital Management
+Series E
+18-Oct-2021
+Later Stage VC
+252.18
+4,055.61
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global, Chimera Capital, Coatue Management, Dragoneer Investment Group, DST Global, Insight Partners, Marshall Wace, RTP Global, Sofina (BRU: SOF), STEADFAST Capital Ventures, Tiger Global Management
+Series C
+05-May-2021
+Later Stage VC
+250.00
+2,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+1Sharpe Ventures, BOND Capital (San Francisco), Coatue Management (Michael Gilroy), Endeavor Catalyst, Invus Opportunities, Jump Crypto, Kaszek (Nicolas Szekasy), Mantis VC, Michael Sidgmore (Michael Sidgmore), MV Global, Pantera Capital, Paradigm (Crypto Fund) (Matthew Huang), QED Investors (Nigel Morris), SoftBank Latin America Fund, SouthernXcapital, Spectra Investments, Tiger Global Management (Scott Shleifer), Valor Capital Group
+Series H
+01-Feb-2022
+Later Stage VC
+250.00
+3,750.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+G Squared, Insight Partners (AJ Malhotra), Peak XV Partners, Sapphire Ventures (Rajeev Dham), Sequoia Capital (Tejeshwi Sharma), Steadview Capital Management, Tiger Global Management
+Series E
+03-Feb-2022
+Later Stage VC
+250.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+8VC, Activant Capital, Alumni Ventures (Todd McIntyre), Brookfield Growth, Camford Capital, Coatue Management, GLP, NFI Ventures, Tiger Global Management
+Series E
+03-Nov-2021
+Later Stage VC
+250.00
+2,447.68
+Completed
+Venture Capital-Backed
+Generating Revenue
+Akkadian Ventures, at.inc/, Bling Capital, Citi Ventures, Durable Capital Partners, K5 Ventures, LIP Ventures Boutique, Norwest Venture Partners (Jeffrey Crowe), OurCrowd, The Flying Whale, Tiger Global Management, Tribeca Venture Partners, Unit Group
+Series F
+26-Jan-2022
+Later Stage VC
+250.00
+2,600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global (Navroz Udwadia), Chimera Capital, Groundupp Ventures, Tiger Global Management, Ward Ferry Management
+Series D
+11-Sep-2021
+Later Stage VC
+250.00
+3,700.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Access Industries, Alkeon Capital Management, Bessemer Venture Partners (Talia Goldberg), Greenoaks Capital Partners, Group 11 (Dovi Frances), Insight Partners (Teddie Wardi), IVP (Cack Wilhelm), Scale Venture Partners (Rory O'Driscoll), Tiger Global Management, Toba Capital, Workday Ventures, ZoiBel
+Series E
+19-Apr-2019
+Later Stage VC
+250.00
+2,700.00
+Completed
+Venture Capital-Backed
+Generating Revenue/Not Profitable
+Bessemer Venture Partners, G Squared, Lead Edge Capital (Paul Bell), Riot Ventures, T. Rowe Price Group (NAS: TROW), TCV (David Yuan), Tiger Global Management, University Growth Fund
+Series E
+26-Sep-2018
+Later Stage VC
+245.00
+20,250.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Alastair Rampell), DST Global, Khosla Ventures, Kleiner Perkins, Late Stage Management, Proioxis Ventures, Sequoia Capital (Michael Moritz), Sherpalo Ventures, Thrive Capital, Tiger Global Management (Chase Coleman)
+
+21-Apr-2021
+PE Growth/Expansion
+240.00
+3,000.00
+Completed
+Private Equity-Backed
+Generating Revenue
+Dragoneer Investment Group, Silversmith Capital Partners (Todd MacLean), Susquehanna Growth Equity (Martin Angert), Tiger Global Management
+Series A
+23-Mar-2022
+Later Stage VC
+237.08
+740.69
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global (Navroz Udwadia), Chimera Capital, Creation Investments Capital Management, Matrix, Norwest Venture Partners (Niren Shah), Tiger Global Management (Griffin Schroeder), Z47, Zodius Advisors India
+Series D
+26-Jul-2021
+Later Stage VC
+235.00
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Ahmir Thompson (Ahmir Thompson), Bezos Expeditions (Jeffrey Bezos), DFJ Growth, Enlightened Hospitality Investments, Future Positive (Frederick Blackford), Gil Ofer (Gil Ofer), Kaszek (Nicolas Szekasy), L Catterton (Ramiro Lauzan), Lewis Hamilton (Lewis Hamilton), Maya Capital (Brazil), Mousse Partners (Arthur Heilbronn), Roger Federer (Roger Federer), Social Impact Foundation, SOSV (Po Bronson), Tiger Global Management, Trousdale Ventures, ZOMALAB
+Series C1
+01-Mar-2017
+Later Stage VC
+230.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Genesis Capital (Hong Kong), Jeneration Capital, Tiger Global Management (Pengfei Wang)
+Series F
+18-Mar-2021
+Later Stage VC
+230.00
+1,400.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ADIP, Bessemer Venture Partners (Adam Fisher), ClalTech (Daniel Shinar), Coin Ventures, Cooper Square Ventures, Hanaco Ventures, Shavit Capital, Shopify (TSE: SHOP), Tiger Global Management (John Curtius), Vertex Ventures Israel, Vintage Investment Partners
+Series B
+11-Dec-2020
+Early Stage VC
+229.67
+1,479.52
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Sonali De Rycker), ChileGlobal Angels, Coatue Management (Kris Fredrickson), DFJ Growth, IVP (Jules Maltz), Northzone Ventures (Paul Murphy), Octave (San Francisco) (William Smith), Salesforce Ventures, Seedcamp, Tiger Global Management
+Series D
+14-Apr-2021
+Later Stage VC
+226.08
+2,526.08
+Completed
+Venture Capital-Backed
+Generating Revenue
+8090 Partners, Align Ventures, Azoic Ventures, Insight Partners, Middleton Partners, Oyster Ventures, Polaris Capital (New York), PROOF, RedBird Capital Partners, Rheinest, Sand Hill Angels (Rajan Perkash), Spruce House Investment Management (Benjamin Stein), Tiger Global Management, Tru Arrow Partners
+Series G
+30-Nov-2020
+Later Stage VC
+225.50
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Dragoneer Investment Group, Drive Capital (Christopher Olsen), General Catalyst (Hemant Taneja), GV, Health2047 Capital Partners (Richard Langdale), LRVHealth, Sequoia Capital, SVB Financial Group, Tiger Global Management, Transformation Capital
+Series D
+04-Dec-2014
+Later Stage VC
+225.00
+914.50
+Completed
+Venture Capital-Backed
+Generating Revenue
+August Capital (John Johnston), Bloodhound Partners, DFJ Growth (Randall Glein), Kohlberg Kravis Roberts (NYS: KKR), Peter Thiel (Peter Thiel), Phin Upham (Phin Upham), RRE Ventures (James Robinson), Thiel Capital (Phin Upham), Tiger Global Management
+Series D1
+14-Sep-2020
+Later Stage VC
+225.00
+2,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ChrysCapital, Filter Capital, Footpath Ventures, Tiger Global Management, TPG (NAS: TPG)
+Series D
+24-Sep-2020
+Later Stage VC
+225.00
+1,700.00
+Completed
+Venture Capital-Backed
+Profitable
+AccelerAsia, Activant Capital, Constellation Asset Management, Endeavor Catalyst, Gávea Investimentos, Lone Pine Capital, SoftBank Latin America Fund, Tiger Global Management, Volpe Capital (Andre Maciel)
+Series D
+24-Feb-2022
+Later Stage VC
+222.00
+4,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Allison Pickens Ventures, Altimeter Capital Management (Jamin Ball), Amplify Partners, Andreessen Horowitz (Martin Casado), CLF Partners, Coatue Management, Databricks Ventures (Ali Ghodsi), GIC (Singapore), GV, ICONIQ Growth, Keiretsu Capital, Salesforce Ventures, Sequoia Capital (Matthew Miller), Snowflake Ventures (Christian Kleinerman), Tiger Global Management
+Series B
+01-Dec-2021
+Later Stage VC
+221.18
+1,271.38
+Completed
+Venture Capital-Backed
+Generating Revenue
+8i Ventures (Vikram Chachra), Advent International, Anfa, Binny Bansal (Binny Bansal), Blume Ventures (Ashish Fafadia), DG Daiwa Ventures (makoto Ibi), Insight Partners, Lenarco Limited, Moore Strategic Ventures, Seek Ventures, Sony Innovation Fund, Sunley House Capital Management, Tiger Global Management, Tracxn Labs
+Series E
+22-Mar-2021
+Later Stage VC
+220.00
+3,300.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Jorge Conde), Casdin Capital (Eli Casdin), ICONIQ Growth, SVB Capital, Tiger Global Management (John Curtius)
+Series D
+17-Feb-2021
+Later Stage VC
+220.00
+1,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+840 Venture Partners, Abalone Group, Abbhi Capital, Accel (Sameer Gandhi), Aglaé Ventures, Altun Capital, Bobby Wagner (Bobby Wagner), Brianne Kimmel (Brianne Kimmel), Cassis & Cassis Capital, Dreamers VC, Forecast Labs (Arjun Kapur), Fueled (New York), Greycroft (Alison Engel), Incisive Ventures, Inderpal Singh, Inspired Capital (New York), Intuition Capital, Khaira Capital, Kilmahew Ventures, Lakestar (Oliver Heimes), Mantis VC, MyAsiaVC, Philip DeFranco, Proton Enterprises, Quain Investments, Republic Capital, SBX Capital, The Chainsmokers, Threadneedle Ventures, Tiger Global Management, True Equity (Hugh O'Donnell), Trust Fund, Vine Capital Partners, Vine One Ventures, West Quad Ventures, Willard Smith (Willard Smith), Witz Ventures
+Series C
+18-Jan-2022
+Later Stage VC
+215.56
+1,134.53
+Completed
+Venture Capital-Backed
+Generating Revenue
+Christophe Maurissen (Christophe Maurissen), Eight Roads (Lucile Cornet), Financière Saint James, General Atlantic (Aaron Goldman), Hexa, Index Ventures, MVC (New York), Techmind, Tiger Global Management (John Curtius), Wind Capital, YADAY
+
+04-Jan-2022
+PIPE
+210.00
+
+Completed
+Formerly VC-backed
+Generating Revenue
+Alameda Research Ventures, Corbin Capital Partners, Tiger Global Management, Wellington Management
+Series E
+17-Feb-2022
+Later Stage VC
+210.00
+1,700.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Abu Dhabi Investment Authority (Hamad Al Dhaheri), Alpha Wave Global (Utsav Mitra), Chimera Capital, DF International Partners, Dragoneer Investment Group, Graycell Ventures, Kora Investments, Orient Growth Ventures, Purple Matter, Tiger Global Management (Deep Varma), Twenty Nine Capital Partners, Unilever Ventures, Whiteboard Capital
+Series C
+10-Aug-2021
+Later Stage VC
+210.00
+3,750.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Altimeter Capital Management (Bradley Gerstner), American Express Ventures (Harshul Sanghi), B Capital Group (Rashmi Gopinath), Cleo Capital, Mirae Asset Global Investments, Sapphire Ventures (Rajeev Dham), Stealth Capital, Tiger Global Management (Scott Shleifer)
+Series F
+30-Sep-2021
+Later Stage VC
+207.00
+3,000.00
+Completed
+Venture Capital-Backed
+Profitable
+Alpha Wave Global (Navroz Udwadia), Chimera Capital, SoftBank Investment Advisers, Tiger Global Management, Z47 (Vikram Vaidyanathan)
+Series D
+09-Mar-2021
+Later Stage VC
+200.00
+3,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alkeon Capital Management, Andreessen Horowitz (Scott Kupor), Concord Health Partners (James Olsen), Thrive Capital (Kareem Zaki), Tiger Global Management (Scott Shleifer)
+Series D
+03-Mar-2021
+Later Stage VC
+200.00
+1,700.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alta Partners (Peter Hudson), Echo Health Ventures (Dusty Lieb), Humana (NYS: HUM) (Susan Diamond), Oak HC/FT (Andrew Adams), Questa Capital (Ryan Drant), Tiger Global Management (Scott Shleifer)
+Series D
+13-Aug-2021
+Later Stage VC
+200.00
+1,740.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Alastair Rampell), Caffeinated Capital (Raymond Tonsing), GIC (Singapore), Moore Capital Management, Notable Capital (Hans Tung), Summit Peak Investments, Tiger Global Management (Scott Shleifer), Zeal Talent Ventures
+Series C
+16-Mar-2021
+Later Stage VC
+200.00
+1,700.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Aria Emiko (Investment), Casa Verde Capital, DFJ Growth, Dragoneer Investment Group, Gron Ventures, Howard Schultz (Howard Schultz), Level One Fund, Thrive Capital, Tiger Global Management (John Curtius)
+Series E
+22-Feb-2021
+Later Stage VC
+200.00
+2,300.00
+Completed
+Venture Capital-Backed
+Profitable
+Bain & Company (Mark Kovac), Eric Kang (Eric Kang), ICONIQ Growth, Madrona Venture Group (Tim Porter), OpenView Venture Partners (Blake Bartlett), Salesforce Ventures (Matthew Garratt), Sapphire Ventures, Shasta Ventures (Ravi Mohan), Tiger Global Management (John Curtius)
+Series C
+30-Jun-2021
+Later Stage VC
+200.00
+2,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alkeon Capital Management (Abhi Arun), Bain Capital Ventures (Enrique Salem), Human Capital Development, ICONIQ Growth, Kleiner Perkins, Lightspeed Venture Partners, Plug and Play Tech Center, Sapphire Ventures, Tiger Global Management (John Curtius)
+Series D
+14-Jan-2022
+Later Stage VC
+200.00
+1,330.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alumni Ventures (Ray Wu), Andreessen Horowitz, Ash Park Capital, AU21 Capital, Blockchain Fond, CaptureAlpha, Chris C (Chris C), CMT Digital, Color (Portland), Corner Capital Management (Marvin Tien), Corner Ventures, CRT Labs, Deutsche Telekom (ETR: DTE) (Philip Hunold), Dispersion Capital, FirstMark Capital (Matthias Turck), Floating Point, FTX Ventures, Goodyear Ventures (Abhijit Ganguly), GV (Andrew Wheeler), Hack VC, Hard Yaka, Hivemind Capital, Khosla Ventures (Vinod Khosla), L1D, Liberty Global (NAS: LBTYA), LightShed Ventures, Litani Ventures, Lontra Ventures, Multicoin Capital, Munich Re Ventures (Jacqueline LeSage), NGP Capital, Northbund Capital (HongKong), Pantera Capital, Raptor Group, Ribbit Capital, RW3 Ventures, Seven Seven Six, Telefónica Tech Ventures, Third Prime, Tiger Global Management, Token Ventures, TRCM Fund, Uncorrelated Ventures
+Series D
+06-May-2022
+Later Stage VC
+200.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+5Y Capital, Bessemer Venture Partners, Broad Vision Funds, DCM Ventures, Future Capital Discovery Fund, HongShan, Linear Capital, Notable Capital, The Carlyle Group (NAS: CG), Tiger Global Management, Warburg Pincus, Xiang He Capital
+Series E
+01-Mar-2023
+Later Stage VC
+198.89
+997.63
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alphabet (NAS: GOOGL), DAOL Investment, Dharana Capital, Digital Garage (TKS: 4819), General Atlantic (Shantanu Rastogi), Moore Strategic Ventures, Tiger Global Management, Woori Venture Partners
+Series E
+21-Sep-2021
+Later Stage VC
+180.00
+1,050.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition, Atom Expeditions, Coinbase Ventures, ENDRA Capital, Northzone Ventures (Jeppe Zink), Stripe, Temasek Holdings, Tencent Holdings (HKG: 00700), Tiger Global Management (Alex Cook)
+Series F
+28-Jul-2021
+Later Stage VC
+175.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Base10 Partners, Quint Ventures, Salesforce Ventures, Tidemark (US), Tiger Global Management (John Curtius)
+Series F
+18-Jan-2022
+Later Stage VC
+175.00
+3,000.00
+Completed
+Venture Capital-Backed
+Profitable
+Bedrock, Christopher Howard (Christopher Howard), Dragoneer Investment Group (Christian Jensen), Elad Gil (Elad Gil), Founders Fund, Fuel Capital, Hillrise Ventures, Khosla Ventures, Lift Ventures, PeopleTech Partners, Salesforce Ventures, Shasta Ventures (Jason Pressman), SNR, Thrive Capital (Vince Hankes), Tiger Global Management
+Series E
+03-Mar-2021
+Later Stage VC
+175.00
+4,650.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Ping Li), Addition, Alkeon Capital Management, Atlassian Ventures, Baillie Gifford, BlackRock (NYS: BLK), Boldstart Ventures (Edward Sim), Canaan Partners, Citi Ventures, Coatue Management, Franklin Templeton (NYS: BEN), Geodesic Capital (Ashvin Bachireddy), GV, Koch, Koch Disruptive Technologies, Lone Pine Capital, Salesforce Ventures (Nowi Kallen), Sands Capital, Stripes (Kenneth Fox), T. Rowe Price Group (NAS: TROW), Temasek Holdings, Tiger Global Management, Whale Rock Capital Management
+Series C
+29-Mar-2021
+Later Stage VC
+170.00
+1,070.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+9Yards Capital, Avenir Growth Capital (Jamie Reynolds), Chaos Ventures (New York), Chui Ventures, DST Global, Early Capital Berrywood, Emergence Industries, Ethos VC, Gaingels, Golden Palm Investments, Green Visor Capital (Joseph Saunders), Greycroft (William Szczerbiak), Insight Partners, Lorimer Ventures, PayPal Holdings (NAS: PYPL), Purpose Venture Capital, Salesforce Ventures, Seed Group, Tiger Global Management (Scott Shleifer), Tiger Management, TO VC (New York)
+Series A
+01-Jul-2021
+Early Stage VC
+170.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Activant Capital, Balderton Capital (Suranga Chandratillake), Banana Capital, FJ Labs, Greycroft, HV Capital (Alexander Joel-Carbonell), Kaszek, Market One Capital, Notable Capital (Hans Tung), SoftBank Latin America Fund, Tiger Global Management
+Series B
+14-Apr-2022
+Later Stage VC
+170.00
+1,550.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alex Roetter (Alex Roetter), Bling Capital, Cold Start, Construct Capital, Dorm Room Fund, Fox Ventures, General Catalyst, Good Friends, Industry Ventures, Julie Penner (Julie Penner), Loren Bendele (Loren Bendele), Mantis VC, Moxxie Ventures, Nathaniel Zola (Nathaniel Zola), Notable Capital, Origin Ventures, Plug and Play Tech Center, Red Devil Investors, SoftBank Investment Advisers, Summit Peak Investments, The Chainsmokers, Tiger Global Management (Griffin Schroeder)
+Series C
+09-Aug-2021
+Later Stage VC
+166.94
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+BonAngels Venture Partners, DSC Investment (KRX: 241520), EDBI, Mirae Asset Venture Investment (KRX: 100790), Samsung Venture Investment, Shinhan Smilegate Global Fund No. 1, Tiger Global Management (John Curtius)
+
+01-Jun-2007
+Buyout/LBO
+162.05
+162.05
+Completed
+Private Equity-Backed
+Generating Revenue
+Tiger Global Management
+Series F
+07-Apr-2021
+Later Stage VC
+155.00
+4,255.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+28 Ventures, Ben Jen Holdings, Borderless Capital, Coatue Management, ComposeVC, Creator Rising, DFJ Growth (Barry Schuler), Glade Brook Capital Partners (Linda Guo), Global Venture Management, GP Bullhound, Green Bay Ventures, Hanfield Venture Partners, Lone Pine Capital, Manhattan Venture Partners, Maximize Capital, Molini Besozzi Marzoli, Network VC, New Enterprise Associates, Ossian Capital, Quiet Capital, Raison Asset Management, Riverside Ventures, Snow Fox Partners, Social Discovery Group, Tiger Global Management (Evan Feinberg), Wellington Management, Woodline Partners
+Series A
+09-Sep-2021
+Early Stage VC
+155.00
+700.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Baleen Capital (Fang Li), Clear Fir Partners, Clearsign Capital, Fasanara Capital, Ithaca Investments, Tiger Global Management, Woodson Capital Management
+Series D
+01-Dec-2020
+Later Stage VC
+154.74
+3,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Neo (Consulting Services (B2B)), Spark Capital (William Reed), Tiger Global Management
+Series D
+12-Jul-2018
+Later Stage VC
+150.00
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+JD.com (HKG: 09618), Tiger Global Management (Pengfei Wang)
+Series C
+22-Feb-2022
+Later Stage VC
+150.00
+1,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Battery Ventures (Itzik Parnafes), Hanaco Ventures, Key1 Capital (Danny Akerman), Kreos Capital, Phoenix Insurance Company (TAE: PHOE), Tiger Global Management (John Curtius)
+Series D
+24-May-2022
+Later Stage VC
+150.00
+2,450.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+CRV (Max Gazor), Foothill Ventures, G Squared, Goanna Capital, Greylock (David Wadhwani), IVP (Cack Wilhelm), Redpoint Ventures (Scott Raney), Sequoia Capital (Patrick Grady), Tiger Global Management (John Curtius)
+Series E1
+31-Jan-2022
+Later Stage VC
+150.00
+3,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (David Ulevitch), Bedrock, Initialized Capital Management, Matrix (Ilya Sukhar), Meritech Capital Partners, Seven Seven Six, Spark Capital, Spur Capital Partners, Tiger Global Management
+
+09-Jun-2021
+PIPE
+150.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Neuberger Berman, Tiger Global Management
+Series E
+17-Feb-2021
+Later Stage VC
+150.00
+1,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+BOND Capital (San Francisco), Prologis Ventures, Scale Venture Partners (Rory O'Driscoll), Tiger Global Management
+
+17-Feb-2021
+PE Growth/Expansion
+150.00
+9,500.00
+Completed
+Private Equity-Backed
+Profitable
+Abdiel Capital, Chamaeleon, Goldman Sachs Growth Equity (Christian Resch), Tiger Global Management
+Series E
+29-Aug-2013
+Later Stage VC
+150.00
+1,189.72
+Completed
+Venture Capital-Backed
+Startup
+Chamath Palihapitiya (Chamath Palihapitiya), Fidelity Investments, Firsthand Capital Management, Glynn Capital, Greylock (Aneel Bhusri), In-Q-Tel (T.J. Rylander), Index Ventures (Michelangelo Volpi), IVP (Somesh Dash), Redpoint Ventures (Satish Dharmaraj), Samsung Venture Investment, Sutter Hill Ventures (Michael Speiser), T. Rowe Price Group (NAS: TROW), Tiger Global Management
+Series F
+05-Jun-2018
+Later Stage VC
+150.00
+2,400.00
+Completed
+Venture Capital-Backed
+Generating Revenue/Not Profitable
+Altos Ventures (Anthony Lee), Greenspring Associates, Greylock (David Sze), Index Ventures (Neil Rimer), Meritech Capital Partners (Craig Sherman), Tiger Global Management
+Series D
+01-Dec-2021
+Later Stage VC
+150.00
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+137 Ventures, Alkeon Capital Management (Deepak Ravichandran), F-Prime Capital (David Jegen), Fabrica Ventures, Firebolt Ventures, GreenPoint Partners (Ryan Shmeizer), Maverick Ventures, Quiet Capital, Reverb Capital, Sequoia Capital (Andrew Reed), Tiger Global Management (John Curtius), Wellington Management, Y Combinator (Anu Hariharan)
+Series C
+02-Nov-2018
+Later Stage VC
+150.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+BHG Long Hills Capital, GSR Ventures China, Lanchi Ventures, Long Capital, Orchid Asia Group Management, Tencent Holdings (HKG: 00700), Tiger Global Management
+Series C
+19-Jan-2022
+Later Stage VC
+150.00
+1,025.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Coatue Management, CRV, Lightspeed Venture Partners (Ling Wong), Salesforce Ventures, Silverton Partners (Morgan Flager), Slow Ventures, Tiger Global Management (Jay Chen), Tusk Venture Partners (Jordan Nof)
+Series C
+14-Sep-2021
+Later Stage VC
+150.00
+1,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+AC Ventures (Indonesia), Accel (Ryan Sweeney), Amasia (John Kim), BRI Ventures, Gil Ofer (Gil Ofer), Goat Capital, KI Capital, MyAsiaVC, Olive Tree Capital, Tiger Global Management (Alex Kimball), Toba Capital
+
+06-Jul-2015
+Secondary Transaction - Open Market
+149.94
+
+Completed
+Venture Capital-Backed
+Profitable
+SRS Investment Management, Tiger Global Management
+Series B3
+19-Apr-2022
+Early Stage VC
+148.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+10T Holdings, Advent International, Betterverse DAO, Continue Capital, CSP DAO, Fenbushi Capital, Fork Ventures, Fundamental Labs, Glock Ventures, Iconium (Specialized Finance), Insight Partners, Lancer Capital, Lightspeed Venture Partners, Marshland Capital, Northbund Capital (HongKong), Sequoia Capital, SoftBank Investment Advisers (Dennis Chang), The Goldman Sachs Group (NYS: GS), Tiger Global Management, TsingTech Ventures, Web3 Capital (Singapore)
+Series A
+19-Sep-2022
+Early Stage VC
+145.00
+485.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+8VC (Joseph Lonsdale), Brewer Lane Ventures, Clocktower Ventures, DFO Management, Fin Capital, HOF Capital, LeFrak, Tiger Global Management
+Series D
+08-Jul-2021
+Later Stage VC
+144.00
+455.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+ADQ, Alteria Capital, DST Global, Growth Story, InnoVen Capital, Tiger Global Management (Griffin Schroeder), WestBridge Capital (San Mateo) (Sandeep Singhal), Z3Partners, Z47
+Series B
+01-Dec-2021
+Later Stage VC
+144.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+BDC Capital (Jack Fraser), Desjardins Capital, EDC Investments, Fifth Wall, Inovia Capital (Magaly Charbonneau), Investissement Québec, Nicola Wealth Private Capital, Obvious Ventures, Plexo Capital, Real Ventures (Sam Haffar), ScaleUP Ventures, SE Ventures, Sozo Ventures (Philip Wickham), SVB Financial Group, Tiger Global Management (Griffin Schroeder), TriplePoint Capital
+
+02-Apr-2012
+Buyout/LBO
+143.38
+154.17
+Completed
+Private Equity-Backed
+Generating Revenue
+Accel, General Atlantic, Tiger Global Management, TPG (NAS: TPG)
+
+17-Dec-2020
+Later Stage VC
+140.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+A-Rod, Baillie Gifford, Chris Hollod (Chris Hollod), Coatue Management, Dragoneer Investment Group, Floating Point, Founders Fund (Brian Singerman), i-Qu & Co, Industry Ventures, K2 Global, Lakestar (Klaus Hommels), Reinvent Capital, Sanno Capital, Spur Capital Partners, Tiger Global Management
+Series E
+19-Apr-2021
+Later Stage VC
+132.84
+2,132.84
+Completed
+Venture Capital-Backed
+Generating Revenue
+535West, 75 & Sunny, Chamaeleon, Darco Capital, Old Well Partners, Peter Attia (Peter Attia), Summit Peak Investments, Tiger Global Management (Scott Shleifer)
+Series C
+18-Nov-2020
+Later Stage VC
+131.00
+761.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Astronaut Capital, Avenir Growth Capital, Foundation Capital (Angus Davis), Invus Opportunities, QED Investors (Frank Rotman), Sapphire Ventures, Tiger Global Management, TQ Ventures, Wellington Management
+Series B
+23-Sep-2021
+Early Stage VC
+130.00
+680.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+9Yards Capital (David Fisher), Arcturus Venture (Andrew Leto), Bluewater Companies, EXOR Seeds, Greycroft (William Szczerbiak), Interplay (New York), Latitude Ventures (New York), NewRoad Capital Partners (Tracy Black), Prologis Ventures (Justin Young), Spruce House Investment Management, Tiger Global Management, Venture 53
+Series B2
+10-Nov-2022
+Early Stage VC
+130.00
+680.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+10T Holdings, Alumni Ventures (Laura Rippy), American Express Ventures (Margaret Lim), Aramex Ventures, B Capital Group (Rashmi Gopinath), Bessemer Venture Partners (Ethan Kurzweil), Block (NYS: SQ), Blockchain Capital, Brevan Howard Asset Management, Cap Table Coalition, Castle Island Ventures, Citi Ventures, CMT Digital, DRW Venture Capital (Kimberly Trautmann), Emilie Choi (Emilie Choi), Frank Slootman (Frank Slootman), Geodesic Capital (Jonathan Rezneck), Initialized Capital Management, Intersection Growth Partners (Scott Fletcher), JP Morgan Chase (NYS: JPM), Jump Capital, Marshall Wace, Michael Scarpelli (Michael Scarpelli), Mischief, Operator Partners, PayPal Ventures (Amman Bhasin), Quiet Capital, Silver Buckshot, The Goldman Sachs Group (NYS: GS), Thoma Bravo (Christine Kang), Tiger Global Management (John Curtius), Transform Ventures, Visa (NYS: V) (Terry Angelos), Visa Ventures (Daniel Cho)
+Series C
+28-Aug-2018
+Later Stage VC
+129.00
+469.03
+Completed
+Venture Capital-Backed
+Generating Revenue
+Eastern Bell Venture Capital (Yingchun Zhu), Genesis Capital (Hong Kong), Legend Capital, MPCi, Oriza Holdings, Shell China, Tiger Global Management (Wang Pengfei)
+Series G
+20-Apr-2021
+Later Stage VC
+125.00
+1,400.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Insight Partners, Peak XV Partners, Sapphire Ventures (Rajeev Dham), Steadview Capital Management, Tiger Global Management
+Series B
+17-Dec-2021
+Early Stage VC
+125.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Index Ventures (Michelangelo Volpi), Radical Ventures (Jordan Jacobs), S32, Tiger Global Management (John Curtius)
+Series D
+03-Aug-2021
+Later Stage VC
+125.00
+2,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alteria Capital, Stride Ventures, Tiger Global Management (Scott Shleifer)
+Series D
+26-Jan-2022
+Later Stage VC
+125.00
+1,720.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bessemer Venture Partners, Credo Ventures, Dragoneer Investment Group (Christian Jensen), Index Ventures (Jan Hammer), Kleiner Perkins (Ilya Fushman), Larry Sequino (Larry Sequino), Sequoia Capital (Andrew Reed), Tiger Global Management
+Series B
+22-Apr-2022
+Later Stage VC
+125.00
+625.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+10X Capital, 4DX Ventures (Peter Orth), AHL Venture Partners, Avenir Growth Capital, Binny Bansal (Binny Bansal), Catalyst Fund, Darwazah Capital, Genesis Accel, JAM Fund, Quona Capital (Monica Engel), Serafund, Sujeet Kumar (Sujeet Kumar), Tiger Global Management, VNV Global (STO: VNV)
+Series C
+17-Jun-2021
+Later Stage VC
+120.00
+435.50
+Completed
+Venture Capital-Backed
+Generating Revenue
+7BC Venture Capital, 8VC (Alex Moore), Acuity Partners, Blue Cloud Ventures, Blue Owl Capital (NYS: OWL), Broom Ventures, Build Collective, Citi Ventures, Flat Capital (STO: FLAT B), Hardy Capital Partners, John Collison (John Collison), Overtime.vc, Parkave Capital Group, Patrick Collison (Patrick Collison), Round13 Capital, Salesforce Ventures, Scale Asia Ventures, Sebastian Siemiatkowski (Sebastian Siemiatkowski), Slack Fund, STCAP, Tiger Global Management (John Curtius)
+Series D3
+17-Nov-2017
+Later Stage VC
+120.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Sky9 Capital, Taihecap, Tiger Global Management, Xiang He Capital
+Series B
+30-Nov-2021
+Early Stage VC
+115.00
+850.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Abstract Ventures, Better Tomorrow Ventures, Caffeinated Capital (Raymond Tonsing), Eric Wu (Eric Wu), Flexport, Half Court Ventures, Khosla Ventures, Kindred Ventures, Menlo Ventures (Steven Sloane), Michael Ovitz (Michael Ovitz), Summit Peak Investments, Tiger Global Management (John Curtius)
+Series C
+12-Jan-2022
+Later Stage VC
+115.00
+1,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Crew Capital (Brandon Deer), Founders Circle Capital, GV, Madrona Venture Group (Sivaramakichenane Somasegar), Mayfield Fund, Tiger Global Management (John Curtius)
+Series D
+06-Dec-2021
+Later Stage VC
+110.00
+600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+AddVentures by SCG, B Capital Group (Kabir Narang), British International Investment (Nikhil Balaraman), Bruno E. Raschle (Bruno Raschle), Castle Investments, Chiratae Ventures (Ranjith Menon), International Finance Corporation, Satyadharma Investments, Schroders Capital, Stride Ventures, Tiger Global Management
+Series C
+02-Feb-2021
+Later Stage VC
+110.00
+490.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Alastair Rampell), Caffeinated Capital, Emerson Collective, JAWS Estates Capital, Lennar Ventures, Moore Capital Management, Notable Capital (Hans Tung), Tiger Global Management (Scott Shleifer)
+Series C
+13-Oct-2021
+Later Stage VC
+110.00
+1,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+8VC, Base Partners, Dig Ventures, Exor (AMS: EXO), EXOR Seeds, Litani Ventures, Niche Capital (San Francisco), Norwest Venture Partners (Parker Barrile), Scribble Ventures, SemperVirens Venture Capital, Serena Ventures, SNR, Tiger Global Management (Scott Shleifer)
+Series D
+14-Oct-2021
+Later Stage VC
+110.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+BOND Capital (San Francisco), Coatue Management, Emerson Collective, FundersClub, Lightspeed Ventures, Reach Capital (Jennifer Carolan), Scale-Up (Venture Capital), SV Angel, Tiger Global Management, Union Square Ventures, West Coast Equity Partners
+Series G
+07-Apr-2021
+Later Stage VC
+110.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Generation Investment Management, Maverick Ventures Israel, Sakal Ventures, SoftBank Investment Advisers (Vikas Parekh), TCV (Gopi Vaddi), Tiger Global Management (John Curtius), Uncorrelated Ventures (Salil Deshpande)
+Series C
+22-Feb-2022
+Later Stage VC
+109.47
+1,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Benchmark Capital Holdings (Peter Fenton), Icon Ventures, New Enterprise Associates (Forest Baskett), Redpoint Ventures (Satish Dharmaraj), Tiger Global Management (John Curtius), Two Sigma Ventures
+Series D
+13-Jul-2021
+Later Stage VC
+108.11
+693.70
+Completed
+Venture Capital-Backed
+Generating Revenue
+Avenir Growth Capital, FJ Labs, GC DF Ventures, General Catalyst, InnoVen Capital, Kaiser Foundation Hospitals, Kaiser Permanente, Tiger Global Management
+Series D
+19-Feb-2021
+Later Stage VC
+105.00
+1,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+B Capital Group (Rashmi Gopinath), Currae Healthtech Fund, Dragoneer Investment Group, M12, Mubadala Capital, OMERS Growth Equity, Steadview Capital Management, Tiger Global Management (John Curtius)
+Series C
+17-Feb-2021
+Later Stage VC
+105.00
+505.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+AMD Ventures, Dev Angels, Eastlink Capital, Jeroen Vanhoutte (Jeroen Vanhoutte), Plug and Play Tech Center, SoftBank Investment Advisers, Tiger Global Management (Pengfei Wang)
+Series C
+01-Oct-2019
+Later Stage VC
+104.01
+759.98
+Completed
+Venture Capital-Backed
+Generating Revenue
+Coatue Management, Durable Capital Partners, Entrée Capital, General Catalyst, Oak HC/FT (Patricia Kemp), Stripe, Target Global (Mikhail Lobanov), Tiger Global Management (Scott Shleifer)
+Series C
+25-Feb-2021
+Later Stage VC
+102.19
+917.72
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Prashanth Prakash), Evolvence India (Rohit Batra), Foundamental, InnoVen Capital, Nexus Venture Partners (Sameer Verma), Sistema (MISX: AFKS), Tiger Global Management (Scott Shleifer)
+Series B
+17-May-2021
+Early Stage VC
+101.46
+650.20
+Completed
+Venture Capital-Backed
+Generating Revenue
+Aglaé Ventures, Alven Capital Partners, Bain Capital Ventures (Merritt Hummer), Ergo Partners, Global Founders Capital (David Sainteff), Index Ventures, Tiger Global Management
+Series E
+12-Jul-2021
+Later Stage VC
+101.00
+1,610.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Avenir Capital, EQUIAM, Gaingels, General Catalyst (Lawrence Bohn), Lucy Turnbull (Lucy Turnbull), Malcolm Turnbull, Matthew Mazzeo (Matthew Mazzeo), Nitesh Banta (Nitesh Banta), Spark Capital (Alex Finkelstein), Spruce House Investment Management (Benjamin Stein), Spur Capital Partners, The Goldman Sachs Group (NYS: GS), Tiger Global Management
+Series E
+25-Oct-2021
+Later Stage VC
+100.65
+370.51
+Completed
+Venture Capital-Backed
+Generating Revenue
+Dominor, Lightrock (Vaidhehi Ravindran), Peak XV Partners (Shailesh Lakhani), Tiger Global Management (Griffin Schroeder), Vitruvian Partners
+Series C
+24-Nov-2021
+Later Stage VC
+100.54
+790.54
+Completed
+Venture Capital-Backed
+Generating Revenue
+B Capital Group (Karen Page), Definition (Teddy Citrin), Felicis (Niki Pezeshki), First Round Capital, Frontline Ventures (Brennan O'Donnell), Greycroft (Teddy Citrin), Mango Capital (Venture Capital), Okta Ventures, Spruce House Investment Management, SVB Capital, Tiger Global Management (John Curtius)
+Series C
+24-Apr-2019
+Later Stage VC
+100.04
+332.75
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel, Clark Valberg (Clark Valberg), Flipkart, HR Capital, Mistletoe, Nandan Nilekani (Nandan Nilekani), Neoplux, NRJN Family Trust, Qualcomm Ventures, Raghunandan Gangappa, Steadview Capital Management, Tanglin Venture Partners, Tiger Global Management, Trifecta Capital Partners
+Series E
+06-Mar-2014
+Later Stage VC
+100.00
+1,130.92
+Completed
+Venture Capital-Backed
+Profitable
+83North (Erez Ofer), Advanced Technology Ventures (Robert Ammerman), Andreessen Horowitz (Peter Levine), Hercules Capital (NYS: HTGC), Jamie Goldstein (Jamie Goldstein), Joshua Maher (Joshua Maher), North Bridge Venture Partners, Spur Capital Partners, TCV (Richard Kimball), Tiger Global Management
+Series C
+15-May-2024
+Later Stage VC
+100.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Dallas Venture Capital (Dayakar Puskoor), Geodesic Capital (Arvind Ayyala), Kleiner Perkins (Mamoon Hamid), Koch Disruptive Technologies (Brendon Durkin), Lian Group, NextEquity Partners (Avadis Tevanian), Sequoia Capital (William Coughran), Tiger Global Management (Rohit Iragavarapu)
+
+01-Feb-2022
+Later Stage VC
+100.00
+4,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accomplice VC (Jeffrey Fagnan), Homebrew, Michael Sidgmore (Michael Sidgmore), Pioneer Fund, Socially Financed, Tiger Global Management
+Series C
+16-Sep-2021
+Later Stage VC
+100.00
+1,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+GSV Ventures, Insight Partners, Maverick Ventures, Owl Ventures (Amit Patel), Peak XV Partners (Harshjit Sethi), Tiger Global Management (Griffin Schroeder)
+Series D
+14-Sep-2021
+Later Stage VC
+100.00
+650.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Albert Liu (Albert Liu), Alumni Ventures, BoxGroup, Bracket Capital, Camber Creek, Chestnut Street Ventures, Climate Capital, Drawdown Fund (Erik Snyder), Energy Impact Partners (Sameer Reddy), G2 Venture Partners (Benjamin Kortlang), Inclusive Capital Partners, Lauder Partners, MCJ, Penny Lee (Penny Lee), Reimagined Ventures (Alec Litowitz), Tiger Global Management (Evan Feinberg), TriplePoint Venture Growth BDC (NYS: TPVG), Wellington Management
+Series C2
+22-Nov-2018
+Later Stage VC
+100.00
+422.52
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bull Capital Partners, Chengwei Capital, H Capital, Source Code Capital, Tiger Global Management (Wang Pengfei), Yunqi Partners
+Series D
+22-Apr-2021
+Later Stage VC
+100.00
+1,250.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Advent International, Bessemer Venture Partners (Alex Ferrara), Boldstart Ventures (Edward Sim), FinSight Ventures, Glynn Capital, Hewlett Packard Pathfinder, MongoDB Ventures, Plug and Play Tech Center (Alireza Masrour), Salesforce Ventures (Matthew Garratt), Scale Venture Partners (Ariel Tseitlin), Setcoin Group, Tiger Global Management, Vintage Investment Partners
+Series C
+11-Jan-2018
+Later Stage VC
+100.00
+
+Completed
+Venture Capital-Backed
+Profitable
+Tal Education Group (NYS: TAL), Tiger Global Management
+Series C
+01-Mar-2022
+Later Stage VC
+100.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+CDH Investments, China Renaissance (HKG: 01911) (Fan Bao), Gaorong Capital, Granite Asia, HongShan, SoftBank Investment Advisers, Tiger Global Management (Wang Pengfei)
+Series B
+20-Jul-2021
+Early Stage VC
+100.00
+698.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+BOND Capital (San Francisco), Forerunner Ventures, Kindred Ventures, Lachy Groom (Lachy Groom), Next Ventures (Texas), Plexo Capital, Qualcomm Ventures, Sam Altman (Sam Altman), SoftBank Group (TKS: 9984), Tiger Global Management (Chase Coleman), Time Ventures (Marc Benioff), Valia Ventures (Khaled Jalanbo), Wilson Sonsini Goodrich & Rosati
+Series D
+31-Dec-2020
+Later Stage VC
+100.00
+1,400.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Martin Casado), CRV (Devdutt Yellurkar), Index Ventures (Michelangelo Volpi), Lombardstreet Ventures, Notable Capital (Glenn Solomon), Sapphire Ventures, The Goldman Sachs Group (NYS: GS), Tiger Global Management (John Curtius)
+Series C
+02-Nov-2021
+Later Stage VC
+100.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Blue Lake Capital, GSR Ventures China, Hillhouse Investment Group, Notable Capital, Tiger Global Management
+Series C
+20-Jul-2021
+Later Stage VC
+100.00
+670.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition (Lee Fixel), SVB Financial Group, Tiger Global Management (Griffin Schroeder), TriplePoint Capital
+Series D
+22-Aug-2018
+Later Stage VC
+100.00
+1,000.00
+Completed
+Venture Capital-Backed
+Startup
+Redpoint Ventures (Elliot Geidt), Ribbit Capital (Nick Shalek), Scale Venture Partners (Alexander Niehenke), Tiger Global Management (Lee Fixel)
+Series C
+07-Jul-2015
+Later Stage VC
+100.00
+400.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bemberg Capital, Bertelsmann, Bertelsmann India Investments, Generation Ventures (Palo Alto), Liberty Ventures Group, Mousse Partners, Steadview Capital Management, Tiger Global Management (Lee Fixel)
+Series D
+19-Jan-2015
+Later Stage VC
+100.00
+500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Helion Venture Partners (Sanjeev Aggarwal), Nexus Venture Partners (Anup Gupta), Tiger Global Management (Lee Fixel)
+Series F
+29-Jan-2019
+Later Stage VC
+100.00
+22,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+BOND Capital (San Francisco), Late Stage Management, Seek Ventures, Tiger Global Management
+Series A3
+02-Mar-2021
+Early Stage VC
+100.00
+435.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Album VC (Diogo Myrrha), Anthony Pompliano (Anthony Pompliano), Bossa Invest, Coinbase Ventures, Collaborative Fund, Galaxy Digital Holdings (TSE: GLXY), Global Founders Capital, Michael Vaughan (Michael Vaughan), Original Capital, Paradigm (Crypto Fund) (Matthew Huang), PayPal Ventures (Amman Bhasin), Ryan Smith (Ryan Smith), Tiger Global Management, TTV Capital, Valar Ventures, William Ackman (William Ackman), Winklevoss Capital Management (Sterling Witzke)
+Series C
+16-Apr-2020
+Later Stage VC
+100.00
+1,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+83North (Yoram Snir), CF Private Equity, Dell Technologies Capital, Goldman Sachs Growth Equity, Greenfield Partners (Avery Schwartz), Mellanox Capital, Next47 (Lakshmikanth Ananth), Norwest Venture Partners (Dror Nahumi), Nvidia (NAS: NVDA), Tiger Global Management
+Series D
+05-Oct-2021
+Later Stage VC
+100.00
+3,703.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Square Group (Ankang Ni), BAM Elevate (Benjamin O'Connor), General Atlantic, J17 Capital, Kingfisher Investment Advisors, Nvidia (NAS: NVDA), Telescopic Ventures, The Syndicate Group, Tiger Global Management (John Curtius), Venture Capital Fund of America, Vintage Investment Partners
+Series C
+24-Jan-2022
+Later Stage VC
+100.00
+1,500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Matthew Weigand), Alkeon Capital Management (Deepak Ravichandran), IVP (Jules Maltz), Lemonade Stand (Estonia), Lift99, Mojo Capital, Siena Secondary Fund, Tiger Global Management (John Curtius), Y Combinator
+Series D
+07-Apr-2022
+Later Stage VC
+100.00
+1,200.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+CRV, Geodesic Capital (Jonathan Rezneck), GV, Hakluyt Capital, Insight Partners (Nikhil Sachdev), Kleiner Perkins (Mamoon Hamid), Scale Venture Partners (Rory O'Driscoll), Sozo Ventures (Spencer Foust), Susa Ventures, Threshold Ventures, Tiger Global Management (John Curtius)
+
+01-Feb-2022
+Later Stage VC
+100.00
+4,100.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accomplice VC (Jeffrey Fagnan), Homebrew, Michael Sidgmore (Michael Sidgmore), Pioneer Fund, Socially Financed, Tiger Global Management
+Series B
+10-Nov-2021
+Early Stage VC
+100.00
+1,040.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+A* Capital, Andreessen Horowitz (Kristina Shen), Equal Ventures Management (Richard Kerby), Jeffrey Katzenberg (Jeffrey Katzenberg), Tiger Global Management (John Curtius), Uncork Capital
+
+01-Apr-2020
+Later Stage VC
+100.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Boyu Capital, Hopu Investment Management, i-Qu & Co, Tiger Global Management, VMG Partners
+
+15-Dec-2021
+Early Stage VC
+99.51
+1,240.42
+Completed
+Venture Capital-Backed
+Generating Revenue
+Abhiraj Bhal (Abhiraj Bhal), Alphatron Capital, Amber Winter (Amber Winter), Deepinder Goyal (Deepinder Goyal), Epiq Capital, Hummingbird Ventures, Kunal Shah (Kunal Shah), Peak XV Partners, Tenacity Ventures, Tiger Global Management, Trifecta Capital Partners, Utsav Somani, Varun Alagh (Varun Alagh), Winter Capital Partners
+Series C
+13-Jan-2022
+Later Stage VC
+96.23
+1,127.07
+Completed
+Venture Capital-Backed
+Generating Revenue
+Anavio Capital Partners, Deutsche Numis, Elkstone, Enterprise Ireland, Global Founders Capital, Growing Capital, Image Frame Investment, Mike Brennan, Tencent Holdings (HKG: 00700), Tiger Global Management
+Series B
+26-Jan-2021
+Early Stage VC
+95.00
+480.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+JAWS Estates Capital, Kairos HQ (Alex Fiance), Kairos Ventures, Lakestar (Oliver Heimes), Red Dog Capital, The Jenkins Fund, Tiger Global Management (Scott Shleifer)
+Series D
+09-Mar-2022
+Later Stage VC
+92.48
+575.94
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Subrata Mitra), Dream Incubator (TKS: 4310), Evolvence India, South Park Commons, Sparkle Fund, Stride Ventures, Tiger Global Management, Trusted Insight (Trang Nguyen), Winter Capital Partners
+Series A
+27-Apr-2022
+Later Stage VC
+90.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+DST Global, Gemini Investments (Holdings), Tiger Global Management (Alex Cook)
+Series C
+27-Dec-2021
+Later Stage VC
+86.83
+655.52
+Completed
+Venture Capital-Backed
+Generating Revenue
+3one4 Capital (Pranav Pai), BEENEXT Capital Management, Invus Opportunities, Mirae Asset Global Investments, MUFG Innovation Partners, Nu Holdings (NYS: NU), Peak XV Partners, QED Investors (Sandeep Patil), Rocket Internet (HAM: RKET), Tiger Global Management, Utsav Somani, Z47 (Vikram Vaidyanathan)
+Series D
+28-Mar-2022
+Later Stage VC
+86.00
+650.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Ankur Goyal (Ankur Goyal), Ankur Warikoo (Ankur Warikoo), Divyang Bhardwaj (Divyang Bhardwaj), Dragoneer Investment Group, Peyush Bansal (Peyush Bansal), Sixteenth Street Capital, Steadview Capital Management (Ravi Mehta), Sunny Bajaj (Sunny Bajaj), Tiger Global Management, Vinay Saraf (Vinay Saraf)
+Series C
+13-Feb-2020
+Later Stage VC
+85.44
+170.24
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Anand Daniel), KB Investment, Legend Capital, LGT Group, Maximilian Maria (Maximilian Maria), Notable Capital (Hans Tung), Ohana Holdings, Omidyar Network (Siddharth Nautiyal), Tal Education Group (NYS: TAL), Tiger Global Management (Scott Shleifer)
+Series B
+05-Jan-2022
+Early Stage VC
+85.35
+500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition, Alpha JWC Ventures, Global Founders Capital (Roel Janssen), Insight Partners (Rebecca Liu-Doyle), MyAsiaVC, Nordstar Partners, Rocket Internet (HAM: RKET), Smile Group, Stonewater Ventures, Tiger Global Management
+Series G
+25-Nov-2020
+Later Stage VC
+85.33
+1,700.08
+Completed
+Venture Capital-Backed
+Generating Revenue
+Dragoneer Investment Group, General Atlantic, Peak XV Partners, SoftBank Investment Advisers (Sumer Juneja), Steadview Capital Management, Tiger Global Management (Scott Shleifer)
+Series B
+19-Jan-2022
+Early Stage VC
+85.05
+500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+A* Capital, BoxGroup, Expansion Capital, Exponent Founders Capital, Tiger Global Management (John Curtius), Valar Ventures
+Series D
+06-May-2015
+Later Stage VC
+85.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue/Not Profitable
+Multiples Alternate Asset Management (Sudhir Variyar), Nexus Venture Partners (Suvir Sujan), Tiger Global Management (Lee Fixel), Times Internet (Satyan Gajwani)
+Series C
+10-Sep-2021
+Later Stage VC
+85.00
+850.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition (Lee Fixel), Amplify Partners (Michael Dauber), Madrona Venture Group (Matthew McIlwain), Tiger Global Management (John Curtius), Top Tier Capital Partners
+Series B
+20-May-2021
+Early Stage VC
+85.00
+527.73
+Completed
+Venture Capital-Backed
+Generating Revenue
+Better Capital (California), Index Ventures (Neil Rimer), Lakestar (Stephen Nundy), Salesforce Ventures, Tapestry (US), Thrive Capital (Joshua Kushner), Tiger Global Management (John Curtius), Tiny Capital (TSX: TINY), Todd and Rahul's Angel Fund, Todd Goldberg (Todd Goldberg)
+Series D
+07-Apr-2021
+Later Stage VC
+84.75
+686.10
+Completed
+Venture Capital-Backed
+Generating Revenue
+Peak XV Partners, Propel Venture Partners (Rohit Bodas), Ribbit Capital, Tiger Global Management (Scott Shleifer), Y Combinator
+Series B
+12-Jan-2022
+Early Stage VC
+82.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+DST Global, Jigsaw VC, Launchbay Capital, QED Investors (Sandeep Patil), RTP Global, Tiger Global Management (Alex Cook), XYZ Venture Capital
+Series C
+17-Apr-2022
+Later Stage VC
+80.00
+1,600.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+345 Partners, Andreessen Horowitz (Benjamin Horowitz), BBQ Capital, CarMax Enterprise Services (NYS: KMX), Five9 (NAS: FIVN), Genesys (Olivier Jouve), Greylock (Saam Motamedi), Intuit Ventures, JP Morgan Chase (NYS: JPM), MicroVentures, Plug and Play Tech Center, Porsche Ventures, Qudit (John Donovan), Roosh Ventures, Sequoia Capital, Tiger Global Management (John Curtius), Zoom Video Communications (NAS: ZM)
+Series D
+16-Oct-2020
+Later Stage VC
+80.00
+730.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bessemer Venture Partners (Elliott Robinson), BOND Capital (San Francisco), Dcode Capital, Evolution VC Partners, Felicis, FirstMark Capital (Matthias Turck), Fritz Lanman (Fritz Lanman), GIC (Singapore), Nathaniel Turner (Nathaniel Turner), Parameter Ventures, PROOF, Scott Belsky (Scott Belsky), Stripes (Ron Shah), Tiger Global Management (John Curtius), Umang Dua (Umang Dua), West Quad Ventures
+Series E
+16-Aug-2024
+Later Stage VC
+80.00
+2,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Tiger Global Management
+Series D
+19-Sep-2024
+Later Stage VC
+80.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Taj Investment Holdings, Tiger Global Management
+Series C
+09-Apr-2014
+Later Stage VC
+80.00
+900.00
+Completed
+Venture Capital-Backed
+Startup
+Benchmark Capital Holdings (Matthew Cohler), David Morin (David Morin), David Sacks (David Sacks), Jeff Hammerbacher (Jeff Hammerbacher), Jeremy Stoppelman (Jeremy Stoppelman), Matrix (Joshua Hannah), Michael Birch (Michael Birch), North Bridge Venture Partners (Jonathan Heiliger), Peter Thiel (Peter Thiel), Tiger Global Management, Y Combinator (Sam Altman)
+Series B
+05-Sep-2021
+Later Stage VC
+79.21
+524.74
+Completed
+Venture Capital-Backed
+Generating Revenue
+Columbia Lake Partners, Creandum (Peter Ramsey), CRV (Reid Christian), KFund, Point Nine Capital, Tackle Capital, Tiger Global Management (John Curtius)
+Series B
+13-Aug-2021
+Later Stage VC
+78.27
+578.27
+Completed
+Venture Capital-Backed
+Generating Revenue
+640 Oxford Ventures, Bullpen Capital, Cap Table Coalition, Chingona Ventures, Converge Capital Partners, Esalen Ventures, Founders Circle Capital, Gaingels, Gutbrain Ventures, Justin Poirier (Justin Poirier), Mindset Ventures, Mucker Capital, NextView Ventures, Sand Hill Angels, South Park Commons, TechNexus Venture Collaborative, Tiger Global Management
+Series B
+10-Jun-2020
+Early Stage VC
+77.61
+296.93
+Completed
+Venture Capital-Backed
+Generating Revenue
+Lightspeed India Partners (Devtosh Khare), Tiger Global Management, VentureSouq
+Series E
+06-Mar-2014
+Later Stage VC
+77.00
+1,017.40
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bloodhound Partners, Burch Creative Capital, First Round Capital (Joshua Kopelman), Foundation Capital (Charles Moldow), GV (Karim Faris), Industry Ventures, IVP (Sanford Miller), Peter Thiel (Peter Thiel), Phin Upham (Phin Upham), RRE Ventures (James Robinson), Sapphire Ventures (David Hartwig), Thiel Capital (Phin Upham), Tiger Global Management
+Series B
+18-Nov-2020
+Early Stage VC
+76.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Able Partners, Breanna Stewart (Breanna Stewart), GC Venture Fellows, GingerBread Capital, Kyle Lowry (Kyle Lowry), Northzone Ventures (Pär-Jörgen Pärson), Operator Partners, PeopleTech Partners, Rethink Impact (Heidi Patel), SemperVirens Venture Capital, The William K. Warren Foundation, Tiger Global Management (Scott Shleifer), True Capital Management, Work-Bench
+Series E
+01-Aug-2019
+Later Stage VC
+75.07
+614.88
+Completed
+Venture Capital-Backed
+Generating Revenue
+Kalyan Krishnamurthy (Kalyan Krishnamurthy), Mekin Maheshwari (Mekin Maheshwari), Prashant Malik (Prashant Malik), SAB Holdings (Anjali Bansal), SAIF Partners, Steadview Capital Management, Tiger Global Management, Titan Capital, Vy Capital
+Series C
+17-Aug-2021
+Later Stage VC
+75.00
+260.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Arlan Hamilton (Arlan Hamilton), Aurum Partners, Chloe Sladden (Chloe Sladden), CRV (Reid Christian), Drive Capital, Erik Torenberg (Erik Torenberg), F-Prime Capital, FourCities Capital, Irakly Arison (Irakly Arison), Jana Messerschmidt, Lee Linden (Lee Linden), OrbiMed, Quiet Capital, SemperVirens Venture Capital, Stephanie Palmeri (Stephanie Palmeri), SVB Financial Group, Tiger Global Management, U.S. Venture Partners, Yuri Sagalov (Yuri Sagalov)
+Series C1
+27-Jan-2010
+Later Stage VC
+75.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bull Capital Partners (Xufu Li), Capital Today, Luminary Capital, Tiger Global Management
+Series C
+14-Apr-2021
+Later Stage VC
+75.00
+1,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Coatue Management, Lightspeed Venture Partners (Alexander Taussig), Reach Capital, Tiger Global Management (Evan Feinberg), Union Square Ventures
+Series H
+13-Dec-2018
+Later Stage VC
+75.00
+3,000.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bessemer Venture Partners (Brian Feinstein), ICONIQ Growth (William Griffith), Late Stage Management, Lumia Capital, Tiger Global Management
+Series B
+26-Apr-2022
+Later Stage VC
+75.00
+595.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition, AT&T Ventures, Madrona Venture Group (Sivaramakichenane Somasegar), Menlo Ventures, Robert Muglia (Robert Muglia), Tiger Global Management (John Curtius)
+Series C
+15-Mar-2022
+Later Stage VC
+75.00
+388.84
+Completed
+Venture Capital-Backed
+Generating Revenue
+Insight Partners (Lonne Jaffe), S Capital VC (Haim Sadger), Tiger Global Management, TLV Partners (Rona Segev-Gal)
+Series E
+12-Jun-2019
+Later Stage VC
+75.00
+500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Andreessen Horowitz (Benjamin Horowitz), CRV (Devdutt Yellurkar), General Catalyst (Stephen Herrod), Tiger Global Management
+Series C
+28-Mar-2022
+Later Stage VC
+75.00
+325.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Blackhorn Ventures (Trevor Zimmerman), Drive Capital (Nickolas Solaro), Fontinalis Partners, GM Ventures, Highland Capital Partners (Bob Davis), Impulse VC, Lineage (NAS: LINE) (Adam Forste), Proficio Capital Partners, Tectonic Ventures, Tiger Global Management (Griffin Schroeder), Unless Management (Trevor Zimmerman)
+Series G
+27-Dec-2017
+Later Stage VC
+75.00
+500.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Benchmark Capital Holdings, DAG Ventures, Divide by Zero, Flight Ventures, Greylock (Reid Hoffman), Index Ventures (Michelangelo Volpi), PEAK6 Strategic Capital, Ribbit Capital, Social Capital (Chamath Palihapitiya), Spark Capital (Jeremy Philips), Tiger Global Management (Lee Fixel), TriplePoint Capital
+Series B
+17-Aug-2021
+Later Stage VC
+75.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+20VC (Harry Stebbings), Alkeon Capital Management, Crew Capital (Brandon Deer), Frank Thelen (Frank Thelen), Freigeist (Frank Thelen), Lightspeed Venture Partners (Arsham Memarzadeh), Meritech Capital Partners, Sequoia Capital (Luciana Lixandru), Tiger Global Management (John Curtius), Visionaries Club (Robert Lacher)
+Series D
+29-Mar-2022
+Later Stage VC
+73.95
+525.77
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global (Navroz Udwadia), Chimera Capital, Falcon Capital (London), Owl Ventures, Pivot Ventures, RTP Global (Kirill Kozhevnikov), Tiger Global Management
+Series A
+29-Nov-2021
+Later Stage VC
+73.26
+183.14
+Completed
+Venture Capital-Backed
+Generating Revenue
+Airtree Ventures, AO Startups, Commerce Ventures, Everywhere Ventures, Flying Fox Ventures, Kim Jackson (Kim Jackson), Patty Mills (Patty Mills), Ruslan Kogan (Ruslan Kogan), Rüfüs Du Sol (Rüfüs Du Sol), Saniel Ventures, Scott Farquhar (Scott Farquhar), Skip Capital, Talent Resources Ventures, TEN13 (Stewart Glynn), Tiger Global Management, UNIFIED Music Group, VU Venture Partners, Wildcard Ventures
+Series C
+16-Feb-2024
+Later Stage VC
+72.84
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Barath Subramanian), Alteria Capital, Ankur Capital, British International Investment, Evolvence India, Incubate Fund India, Nekkanti Sea Foods, Prosus Ventures (Ashutosh Sharma), SBI Investment, Tiger Global Management (John Curtius), Z47
+Series C
+22-Apr-2021
+Later Stage VC
+72.00
+772.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bessemer Venture Partners, Index Ventures (Jan Hammer), Kleiner Perkins (Ilya Fushman), Roman Horacek (Roman Horacek), Sequoia Capital (Andrew Reed), Tiger Global Management (John Curtius)
+
+30-Nov-2015
+Later Stage VC
+71.58
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Global Investors, Michael Cannon-Brookes (Michael Cannon-Brookes), TDM Growth Partners (Hamish Corlett), Tiger Global Management, Utilism
+Series C
+01-Feb-2022
+Later Stage VC
+71.00
+618.70
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel (Ping Li), Insight Partners (Matthew Gatto), Sorenson Capital, Tiger Global Management, Wing Venture Capital
+Series B
+14-Sep-2021
+Early Stage VC
+71.00
+681.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alderbrook Companies, Base Ventures, Coinbase Ventures, Magna Filis, Musha Ventures, Quiet Capital, Tiger Global Management, Unshackled Ventures, Vision Capital Group
+Series C
+17-Oct-2022
+Later Stage VC
+70.33
+322.15
+Completed
+Venture Capital-Backed
+Generating Revenue
+9Unicorns, Alphabet (NAS: GOOGL), Beams Fintech Fund (Sagar Agarvwal), Creation Investments Capital Management (Tyler Day), growX Ventures (Manu Rikhye), Mavila Nair (Mavila Nair), Peak XV Partners (Ashish Agrawal), Sandeep Tandon (Sandeep Tandon), Tiger Global Management (Alex Cook), Z Nation Lab
+Series B
+15-Jun-2021
+Early Stage VC
+70.00
+570.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Greenoaks Capital Partners, Insight Partners (Nikhil Sachdev), Lightspeed India Partners (Vaibhav Agrawal), Peak XV Partners (Harshjit Sethi), Rocketship.vc, Tiger Global Management (Griffin Schroeder)
+Series B
+15-Mar-2022
+Early Stage VC
+70.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Acrew Capital, B&Y Venture Partners, Defy Partners Management, Dragoneer Investment Group (Christian Jensen), Endeavor Catalyst (Allen Taylor), Indus Valley Capital, Rayn Group, Tiger Global Management (John Curtius), Wavemaker Partners, Zayn Venture Capital
+Series B1
+07-Jun-2018
+Early Stage VC
+70.00
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Bertelsmann Asia Investments, CMC Capital Partners, Gaorong Capital, Joy Capital (Beijing) (Erhai Liu), Tiger Global Management, Vision Plus Capital
+Series C
+25-Sep-2019
+Later Stage VC
+70.00
+520.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Anant Chimmalgi (Anant Chimmalgi), Daniel Gross (Daniel Gross), DCVC (Matthew Ocko), GarageCapital, Joshua Buckley, Liyuan Venture Capital, Maven Ventures (Jim Scheinman), Mubadala Capital (Abdulla AlBanna), OMERS Ventures (Brian Kobus), Quiet Capital, Sequoia Capital (Patrick Grady), SV Angel, Tiger Global Management, Tjuvholmen Ventures, Transform VC, Y Combinator
+Series G
+06-Jan-2015
+Later Stage VC
+70.00
+775.00
+Completed
+Venture Capital-Backed
+Profitable
+Battery Ventures (Neeraj Agrawal), CapitalG (Laela Sturdy), Sutter Hill Ventures (James White), Tiger Global Management (Lee Fixel)
+Series D
+18-Oct-2019
+Later Stage VC
+70.00
+969.86
+Completed
+Venture Capital-Backed
+Generating Revenue/Not Profitable
+Bessemer Venture Partners (Brian Feinstein), Catalyst Investors (Tyler Newton), Crosslink Capital (David Silverman), Lead Edge Capital (Nimay Mehta), Pelion Venture Partners (Blake Modersitzki), Tiger Global Management
+Series B
+03-May-2022
+Later Stage VC
+69.51
+
+Completed
+Venture Capital-Backed
+Generating Revenue
+Global Founders Capital (Donald Stalter), Grand Prix Capital, GreenMount (Australia), Jason Lenga (Jason Lenga), MA Growth Ventures, Mike Ford, OneVentures, SecondQuarter Ventures, Tidal Ventures (Australia), Tiger Global Management (Jason Lenga)
+Series B
+23-Nov-2021
+Early Stage VC
+68.00
+718.00
+Completed
+Venture Capital-Backed
+Generating Revenue
+Addition, Greenoaks Capital Partners, Haystack Management Company, Lightspeed Venture Partners, Lux Capital, Tiger Global Management
+Series A
+03-Jan-2022
+Early Stage VC
+66.75
+271.75
+Completed
+Venture Capital-Backed
+Generating Revenue
+Balius Partners, Base10 Partners, Centre Street Partners, Cold Start, David Gilboa (David Gilboa), Fifth Wall, FJ Labs, General Catalyst (Youngme Moon), Good Friends, HOF Capital, JAWS Estates Capital, Jeffrey Raider (Jeffrey Raider), Joseph Zwillinger, Justin Mateen (Justin Mateen), Left Lane Capital (Jason Fiedler), Neil Blumenthal (Neil Blumenthal), Outbound Ventures, Pentas Ventures, Quiet Capital, Reshape Ventures (Issam Freiha), Shrug Capital, SM Ventures, Squad Capital, Tiger Global Management, Tishman Speyer Properties, Warby Parker (NYS: WRBY)
+Series B
+22-Apr-2021
+Later Stage VC
+66.00
+
+Completed
+Venture Capital-Backed
+Profitable
+Hillhouse Investment Group, Tiger Global Management
+Series B
+18-Mar-2021
+Early Stage VC
+66.00
+348.12
+Completed
+Venture Capital-Backed
+Generating Revenue
+Accel, Amit Agarwal (Amit Agarwal), Cavalry Ventures, Chalfen Ventures, Dawn Capital (Evgenia Plotnikova), James Fitzgerald (James Fitzgerald), JPKE, Lars Björk (Lars Björk), Notion Capital, Tiger Global Management (John Curtius), Ulf Zetterberg (Ulf Zetterberg)
+Series B
+09-Mar-2021
+Later Stage VC
+65.40
+465.40
+Completed
+Venture Capital-Backed
+Generating Revenue
+Madrona Venture Group (Sivaramakichenane Somasegar), Mayfield Fund, Tiger Global Management (John Curtius)
+Series C
+14-Jun-2021
+Later Stage VC
+65.20
+178.70
+Completed
+Venture Capital-Backed
+Generating Revenue
+Alpha Wave Global (Navroz Udwadia), Blume Ventures (Sajith Pai), Chimera Capital, GSV Ventures (Deborah Quazzo), RTP Global (Kirill Kozhevnikov), Sourav Ganguly, Tiger Global Management
+Series C
+30-Sep-2014
+Later Stage VC
+65.00
+
+Completed
+Venture Capital-Backed
+Startup
+Hillhouse Investment Group, Notable Capital, Qunar.com, Tiger Global Management, Vertex Ventures Southeast Asia & India (Joo Hock Chua)
