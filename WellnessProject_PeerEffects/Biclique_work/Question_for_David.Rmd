@@ -2,7 +2,9 @@
 title: "Question David"
 author: "Jacob McGill"
 date: "2024-11-06"
-output: html_document
+output: 
+  md_document: default
+  md: default
 ---
 
 ```{r setup, include=FALSE}
@@ -243,7 +245,7 @@ The following code then applies the biclique method to the social network. I too
 
 ```{r, include = FALSE}
 # The design function
-design_fn = function(){rbinom(289, 1, 0.5)} 
+design_fn = function(){rbinom(289, 1, 0.05)} 
 
 # The exposure function
 exposure_i = function(z, i){

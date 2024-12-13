@@ -300,7 +300,7 @@ Now that we have assigned treatment status and the number of treated peers, we c
 
 ### Threshold Approach
 
-The first approach assumes that having the number treated first order peers over a certain threshold triggers the peer effect. For this simulation, the threshold will kick if a node has a single treated peer. Outcomes are sampled from a normal distribution. The baseline (no effects from treatment or peers) is sampled from a normal distribution of mean 5, the treated from a normal distribution of mean 10, and the peer effect from a normal distribution of mean 7.5, so the marginal effect of treatment is 5 and of having a treated peer is 2.5. I also generated an outcome where there are no peer effects (node outcomes are sampled from either the treated or non-treated normal distribution) as a comparison. 
+The first approach assumes that having the number treated first order peers over a certain threshold triggers the peer effect. For this simulation, the threshold will kick if a node has a single treated peer. Outcomes are sampled from a normal distribution. The baseline (no effects from treatment or peers) is sampled from a normal distribution of mean 5, the treated from a normal distribution of mean 10, and the peer effect from a normal distribution of mean 7.5, so the marginal effect of treatment is 5 and of having a treated peer is 2.5. I also generated an outcome where there are no peer effects (node outcomes are sampled from either the treated or non-treated distribution) as a comparison. 
 
 ```{r, include = FALSE}
 node_frame = tbl_graph %>%
