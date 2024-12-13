@@ -230,13 +230,63 @@ tbl_graph = tbl_graph %>%
 dgp_test = tbl_graph %>%
   activate(nodes) %>%
   as_tibble()
-# Next, we will generate it in vector form, which will allow us to apply the biclique method
 ```
 ```{r, include = FALSE}
+# Next, we will generate it in vector form, which will allow us to apply the biclique method
+frame = tbl_graph %>%
+  activate(nodes) %>%
+  as_tibble()
+treatment = frame$treated
+first_peer = frame$first_order
+second_peer = frame$second_order
+third_peer = frame$third_order
+outcome_no_peer = frame$outcome_no_peer
+outcome_peer = frame$outcome_peer
+```
+```{r, include = FALSE}
+N = 310
+not_treated = seq(1,1, length.out = N) - treatment
+#Note: I added the not_treated interaction term so that only non-treated individuals receive the peer effect.
+Y_test = outcome_no_peer
+```
+```{r, echo = FALSE}
+#Regressions
 no_peer = summary(lm(outcome_no_peer ~ treated + first_order, dgp_test))
 peer_first = summary(lm(outcome_peer ~ treated + first_order, dgp_test))
 peer_thresh = summary(lm(outcome_peer ~ treated + peer_first, dgp_test))
 ```
+```{r, include = FALSE}
+library(BicliqueRT)
+# The design function
+design_fn = function(){rbinom(N, 1, 0.05)} 
+
+# The exposure function
+exposure_i = function(z, i){
+  stopifnot(length(z)==N)
+  z[i]
+}
+#Will need to adjust this exposure function: exposure function outlines peer effects
+# The null
+null_equiv = function(e1, e2){
+  identical(e1, e2)
+}
+```
+```{r, include = FALSE}
+#Run biclique on peer outcome threshold
+H0_test = list(design_fn=design_fn, exposure_i=exposure_i, null_equiv=null_equiv)
+bd_test = biclique.decompose(Z_test, H0_test, controls= list(method="greedy", mina=3, num_randomizations = 4e3))
+```
+```{r, echo = FALSE}
+Tstat_test = gen_tstat(adjacency_matrix, "elc")
+testout_test = clique_test(Y_test,Z_test, Tstat_test, bd_test)
+testout_test$p.value # p-value of the test
+```
+```{r, echo = TRUE}
+peer_thresh$coefficients[3, 4]
+```
+
+
+
 3. Run a one off test of each method, assessing its effectiveness
 4. Test how well each work with common issues with identifying peer effects, as discussed in Angrist
   a: omitted variable bias (may be hard since this an RCT), group shocks, noise
